@@ -3,7 +3,7 @@ title: test a new post
 author: guan
 date: '2018-02-20'
 slug: test-a-new-post
-categories: []
+categories: [beyasian]
 tags: []
 ---
 假设一个二项分布事件，要求估计出参数theta
