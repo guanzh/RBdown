@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Academic"
-theme = "hugo-academic-master"
+title = "Hugo-lithium-theme"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
