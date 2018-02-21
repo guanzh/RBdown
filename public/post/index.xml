@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ghostwriter example</title>
+    <title>Posts on GC is Online </title>
     <link>/post/</link>
-    <description>Recent content in Posts on Ghostwriter example</description>
+    <description>Recent content in Posts on GC is Online </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>My Name</copyright>
-    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>geebbon-cat</copyright>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>24 Hours for Online Moving</title>
+      <link>/2018/02/21/2018-02-21-24-hours-for-online/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/21/2018-02-21-24-hours-for-online/</guid>
+      <description>2018/2/21 is a Good day!
+24 Hours for my new blog website moving from hexo to hugo. It is nice for a long-term rstudio user.
+Love it!</description>
+    </item>
+    
+    <item>
+      <title>Merge two table</title>
+      <link>/2018/02/21/2018-02-21-merge-two-table/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/21/2018-02-21-merge-two-table/</guid>
+      <description>The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
+ Table 1: Some names not in table 2  name plot1    name_a 1  name_t 2  name_g 3  name_e 4  name_b 5  name_l 6  name_p 7  name_u 8  name_k 9  name_m 10  name_h 11  name_z 12  name_o 13  name_f 14  name_v 15     Table 1: Some names not in table 1  name plot2    name_x 1  name_q 2  name_f 3  name_y 4  name_j 5  name_g 6  name_o 7  name_l 8  name_h 9  name_r 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
+    </item>
+    
+    <item>
+      <title>Test rmd plot</title>
+      <link>/2018/02/21/2018-02-21-test-rmd-plot/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/21/2018-02-21-test-rmd-plot/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min.</description>
+    </item>
     
     <item>
       <title>test a new post</title>

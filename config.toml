@@ -1,9 +1,9 @@
-baseurl = "https://example.com/"
-title = "Ghostwriter example"
+baseurl = "https://geebbon-cat.netlify.com/"
+title = "GC is Online "
 theme = "ghostwriter"
 languageCode = "en-us"
-copyright = "My Name"
-disqusShortname = "XXX"
+copyright = "geebbon-cat"
+disqusShortname = "geebbon-cat"
 googleAnalytics = "XXX"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [Author]
@@ -15,9 +15,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
     intro = true
-    headline = "Ghostwriter example"
-    description = "Ghostwriter example description"
-    github = "https://github.com/XXX"
+    headline = "WE LOVE BIODIVERSITY, WE LOVE LEARNING"
+    description = "Make sense of ......"
+    github = "https://github.com/GuanZH"
     gitlab = "https://gitlab.com/XXX"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
@@ -37,7 +37,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "post"
     url = "/"
     weight = 1
 
