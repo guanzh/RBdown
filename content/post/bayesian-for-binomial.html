@@ -1,0 +1,56 @@
+---
+title: "Bayesian for binomial"
+author: "Gzh"
+date: "11/18/2017"
+output: html_document
+---
+
+
+
+<p>假设一个二项分布事件，要求估计出参数theta</p>
+<pre class="r"><code>drive = c(&#39;texting&#39;,&#39;texting&#39;,&#39;texting&#39;,&#39;not&#39;,&#39;not&#39;,
+          &#39;texting&#39;,&#39;texting&#39;,&#39;not&#39;,&#39;not&#39;,&#39;texting&#39;)
+
+# convert to numeric, arbitrarily picking texting=1, not=0
+driveNum = ifelse(drive==&#39;texting&#39;, 1, 0)
+N = length(drive)                      # sample size
+nTexting = sum(drive==&#39;texting&#39;)       # number of drivers texting
+nNot = sum(drive==&#39;not&#39;)               # number of those not</code></pre>
+<p>我们武断设置一系列theta作为我们的先验概率，使用Kruschke方法限定先验概率接近0.5</p>
+<pre class="r"><code>theta = seq(from=1/(N+1), to=N/(N+1), length=10)
+### prior distribution
+# uniform
+# pTheta = dunif(theta)
+
+# triangular as in Kruschke
+pTheta = pmin(theta, 1-theta)
+
+# beta prior with mean = .5
+# pTheta = dbeta(theta, 10, 10)
+
+pTheta = pTheta/sum(pTheta) # Normalize so sum to 1</code></pre>
+<p>根据二项分布的概率公式 p(y|theta)= (N choose k) * theta^k * (1-theta)^(N-k)，计算出p(y|theta)</p>
+<pre class="r"><code>pDataGivenTheta = choose(N, nTexting) * theta^nTexting * (1-theta)^nNot</code></pre>
+<p>根据贝叶斯理论计算出后验概率</p>
+<pre class="r"><code># first we calculate the denominator from Bayes theorem; this is the marginal
+# probability of y
+pData = sum(pDataGivenTheta*pTheta)
+
+pThetaGivenData = pDataGivenTheta*pTheta  / pData  # Bayes theorem
+data.frame(theta, prior=pTheta, likelihood=pDataGivenTheta, posterior=pThetaGivenData)</code></pre>
+<pre><code>##         theta      prior   likelihood    posterior
+## 1  0.09090909 0.03333333 8.096409e-05 2.006519e-05
+## 2  0.18181818 0.06666667 3.399715e-03 1.685091e-03
+## 3  0.27272727 0.10000000 2.417575e-02 1.797431e-02
+## 4  0.36363636 0.13333333 7.962410e-02 7.893243e-02
+## 5  0.45454545 0.16666667 1.639523e-01 2.031601e-01
+## 6  0.54545455 0.16666667 2.360913e-01 2.925505e-01
+## 7  0.63636364 0.13333333 2.438488e-01 2.417306e-01
+## 8  0.72727273 0.10000000 1.719164e-01 1.278173e-01
+## 9  0.81818182 0.06666667 6.884422e-02 3.412310e-02
+## 10 0.90909091 0.03333333 8.096409e-03 2.006519e-03</code></pre>
+<p>结果来看，最大可能性likelihood建议的theta值 0.546-0.636。</p>
+<pre class="r"><code>posteriorMean = sum(pThetaGivenData*theta)
+posteriorMean</code></pre>
+<pre><code>## [1] 0.5623611</code></pre>
+<p>计算出后验概率均值0.5623611</p>
