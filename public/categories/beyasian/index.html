@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -16,7 +18,7 @@
   <meta name="description" content="Professor of Artificial Intelligence">
 
   
-  <link rel="alternate" hreflang="en-us" href="/">
+  <link rel="alternate" hreflang="en-us" href="/categories/beyasian/">
 
   
 
@@ -65,7 +67,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/categories/beyasian/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -73,8 +75,8 @@
   <meta property="twitter:creator" content="@GeorgeCushen">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="/">
-  <meta property="og:title" content="Academic">
+  <meta property="og:url" content="/categories/beyasian/">
+  <meta property="og:title" content="Beyasian | Academic">
   <meta property="og:description" content="Professor of Artificial Intelligence">
   <meta property="og:locale" content="en-us">
   
@@ -83,10 +85,10 @@
 
   
 
-  <title>Academic</title>
+  <title>Beyasian | Academic</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
   <div class="container">
@@ -122,7 +124,7 @@
         
 
         <li class="nav-item">
-          <a href="/#about" data-target="#about">
+          <a href="/#about">
             
             <span>Home</span>
             
@@ -141,7 +143,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications_selected" data-target="#publications_selected">
+          <a href="/#publications_selected">
             
             <span>Publications</span>
             
@@ -160,7 +162,7 @@
         
 
         <li class="nav-item">
-          <a href="/#posts" data-target="#posts">
+          <a href="/#posts">
             
             <span>Posts</span>
             
@@ -179,7 +181,7 @@
         
 
         <li class="nav-item">
-          <a href="/#projects" data-target="#projects">
+          <a href="/#projects">
             
             <span>Projects</span>
             
@@ -198,7 +200,7 @@
         
 
         <li class="nav-item">
-          <a href="/#teaching" data-target="#teaching">
+          <a href="/#teaching">
             
             <span>Teaching</span>
             
@@ -217,7 +219,7 @@
         
 
         <li class="nav-item">
-          <a href="/#contact" data-target="#contact">
+          <a href="/#contact">
             
             <span>Contact</span>
             
@@ -237,17 +239,32 @@
 
 
 
-<span id="homepage" style="display: none"></span>
 
+
+<div class="universal-wrapper">
+
+  <h1>Beyasian</h1>
+
+  
+
+  
+  
+  <div>
+    <h2><a href="/post/test-a-new-post/">test a new post</a></h2>
+    <div class="article-style">
+      
+      假设一个二项分布事件，要求估计出参数theta
+drive = c(&#39;texting&#39;,&#39;texting&#39;,&#39;texting&#39;,&#39;not&#39;,&#39;not&#39;, &#39;texting&#39;,&#39;texting&#39;,&#39;not&#39;,&#39;not&#39;,&#39;texting&#39;) # convert to numeric, arbitrarily picking texting=1, not=0 driveNum = ifelse(drive==&#39;texting&#39;, 1, 0) N = length(drive) # sample size nTexting = sum(drive==&#39;texting&#39;) # number of drivers texting nNot = sum(drive==&#39;not&#39;) # number of those not 我们武断设置一系列theta作为我们的先验概率，使用Kruschke方法限定先验概率接近0.5
+theta = seq(from=1/(N+1), to=N/(N+1), length=10) ### prior distribution # uniform # pTheta = dunif(theta) # triangular as in Kruschke pTheta = pmin(theta, 1-theta) # beta prior with mean = .
+      
+    </div>
+  </div>
+  
 
   
 
 
-
-
-
-
-
+</div>
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -331,5 +348,6 @@
 
   </body>
 </html>
+
 
 
