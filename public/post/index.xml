@@ -30,7 +30,7 @@ Love it!</description>
       
       <guid>/2018/02/21/2018-02-21-merge-two-table/</guid>
       <description>The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_a 1  name_t 2  name_g 3  name_e 4  name_b 5  name_l 6  name_p 7  name_u 8  name_k 9  name_m 10  name_h 11  name_z 12  name_o 13  name_f 14  name_v 15     Table 1: Some names not in table 1  name plot2    name_x 1  name_q 2  name_f 3  name_y 4  name_j 5  name_g 6  name_o 7  name_l 8  name_h 9  name_r 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
+ Table 1: Some names not in table 2  name plot1    name_u 1  name_v 2  name_d 3  name_g 4  name_o 5  name_y 6  name_j 7  name_a 8  name_e 9  name_x 10  name_w 11  name_h 12  name_s 13  name_z 14  name_p 15     Table 1: Some names not in table 1  name plot2    name_n 1  name_v 2  name_g 3  name_y 4  name_w 5  name_f 6  name_u 7  name_o 8  name_t 9  name_i 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
     </item>
     
     <item>

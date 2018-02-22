@@ -15,14 +15,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
     intro = true
-    headline = "WE LOVE BIODIVERSITY, WE LOVE LEARNING"
+    headline = "WE LOVE LEARNING"
     description = "Make sense of ......"
     github = "https://github.com/GuanZH"
-    gitlab = "https://gitlab.com/XXX"
     linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
-    twitter = "https://twitter.com/XXX"
-    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
     email = "XXX@example.com"
     opengraph = true
     shareTwitter = true
