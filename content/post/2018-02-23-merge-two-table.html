@@ -1,0 +1,504 @@
+---
+title: merge two table
+author: geebbon
+date: '2018-02-23'
+slug: merge-two-table
+categories:
+  - r
+tags:
+  - merge
+  - r
+  - rbind
+---
+
+
+
+<p>summary = “Create a beautifully simple website or blog in under 10 minutes.”</p>
+<p>The question is how to merge two tables, it is easy to use <code>merge</code>. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.</p>
+<table>
+<caption><span id="tab:unnamed-chunk-1">Table 1: </span>Some names not in table 2</caption>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="right">plot1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">name_a</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">name_y</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">name_q</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">name_n</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">name_m</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">name_v</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">name_p</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">name_d</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="left">name_i</td>
+<td align="right">9</td>
+</tr>
+<tr class="even">
+<td align="left">name_g</td>
+<td align="right">10</td>
+</tr>
+<tr class="odd">
+<td align="left">name_c</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="left">name_k</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="left">name_f</td>
+<td align="right">13</td>
+</tr>
+<tr class="even">
+<td align="left">name_j</td>
+<td align="right">14</td>
+</tr>
+<tr class="odd">
+<td align="left">name_e</td>
+<td align="right">15</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption><span id="tab:unnamed-chunk-1">Table 1: </span>Some names not in table 1</caption>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="right">plot2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">name_y</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">name_b</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">name_x</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">name_j</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">name_r</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">name_e</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">name_s</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">name_q</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="left">name_o</td>
+<td align="right">9</td>
+</tr>
+<tr class="even">
+<td align="left">name_v</td>
+<td align="right">10</td>
+</tr>
+</tbody>
+</table>
+<p>Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</p>
+<pre class="r"><code>library(reshape2)
+t_1_m &lt;- melt(t_1,value.name = &quot;plot&quot;)
+t_2_m &lt;- melt(t_2,value.name = &quot;plot&quot;)
+t_3_m &lt;- rbind(t_1_m, t_2_m)</code></pre>
+<table>
+<caption><span id="tab:unnamed-chunk-3">Table 2: </span>we rbind the two tables</caption>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="left">variable</th>
+<th align="right">plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">name_a</td>
+<td align="left">plot1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">name_y</td>
+<td align="left">plot1</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">name_q</td>
+<td align="left">plot1</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">name_n</td>
+<td align="left">plot1</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">name_m</td>
+<td align="left">plot1</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">name_v</td>
+<td align="left">plot1</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">name_p</td>
+<td align="left">plot1</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">name_d</td>
+<td align="left">plot1</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="left">name_i</td>
+<td align="left">plot1</td>
+<td align="right">9</td>
+</tr>
+<tr class="even">
+<td align="left">name_g</td>
+<td align="left">plot1</td>
+<td align="right">10</td>
+</tr>
+<tr class="odd">
+<td align="left">name_c</td>
+<td align="left">plot1</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="left">name_k</td>
+<td align="left">plot1</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="left">name_f</td>
+<td align="left">plot1</td>
+<td align="right">13</td>
+</tr>
+<tr class="even">
+<td align="left">name_j</td>
+<td align="left">plot1</td>
+<td align="right">14</td>
+</tr>
+<tr class="odd">
+<td align="left">name_e</td>
+<td align="left">plot1</td>
+<td align="right">15</td>
+</tr>
+<tr class="even">
+<td align="left">name_y</td>
+<td align="left">plot2</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">name_b</td>
+<td align="left">plot2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">name_x</td>
+<td align="left">plot2</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">name_j</td>
+<td align="left">plot2</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">name_r</td>
+<td align="left">plot2</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="left">name_e</td>
+<td align="left">plot2</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">name_s</td>
+<td align="left">plot2</td>
+<td align="right">7</td>
+</tr>
+<tr class="odd">
+<td align="left">name_q</td>
+<td align="left">plot2</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="left">name_o</td>
+<td align="left">plot2</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="left">name_v</td>
+<td align="left">plot2</td>
+<td align="right">10</td>
+</tr>
+</tbody>
+</table>
+<p><code>merge</code> does not match our aim, so we just bind the table and creat new tables for the samples which not occur Table 1 and Table 2. Next step, we find the names not in both tables and creat new variables.</p>
+<pre class="r"><code>n1 &lt;- t_3_m[t_3_m$name %in% name_1[in_1_notin2],]$name
+l1 &lt;- length(n1)
+t1 &lt;- data.frame(&quot;name&quot;=n1, &quot;variable&quot; = c(rep(&quot;plot2&quot;,l1)),&quot;plot&quot; =rep(0,l1))
+
+n2 &lt;- t_3_m[t_3_m$name %in% name_2[in_2_notin1],]$name
+l2 &lt;- length(n2)
+t2 &lt;- data.frame(&quot;name&quot;=n2, &quot;variable&quot; = c(rep(&quot;plot1&quot;,l2)), &quot;plot&quot;=rep(0,l2))
+
+tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
+<table>
+<caption><span id="tab:unnamed-chunk-5">Table 3: </span>Finally, here we go</caption>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="left">variable</th>
+<th align="right">plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">name_a</td>
+<td align="left">plot1</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">name_y</td>
+<td align="left">plot1</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">name_q</td>
+<td align="left">plot1</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">name_n</td>
+<td align="left">plot1</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">name_m</td>
+<td align="left">plot1</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">name_v</td>
+<td align="left">plot1</td>
+<td align="right">6</td>
+</tr>
+<tr class="odd">
+<td align="left">name_p</td>
+<td align="left">plot1</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">name_d</td>
+<td align="left">plot1</td>
+<td align="right">8</td>
+</tr>
+<tr class="odd">
+<td align="left">name_i</td>
+<td align="left">plot1</td>
+<td align="right">9</td>
+</tr>
+<tr class="even">
+<td align="left">name_g</td>
+<td align="left">plot1</td>
+<td align="right">10</td>
+</tr>
+<tr class="odd">
+<td align="left">name_c</td>
+<td align="left">plot1</td>
+<td align="right">11</td>
+</tr>
+<tr class="even">
+<td align="left">name_k</td>
+<td align="left">plot1</td>
+<td align="right">12</td>
+</tr>
+<tr class="odd">
+<td align="left">name_f</td>
+<td align="left">plot1</td>
+<td align="right">13</td>
+</tr>
+<tr class="even">
+<td align="left">name_j</td>
+<td align="left">plot1</td>
+<td align="right">14</td>
+</tr>
+<tr class="odd">
+<td align="left">name_e</td>
+<td align="left">plot1</td>
+<td align="right">15</td>
+</tr>
+<tr class="even">
+<td align="left">name_y</td>
+<td align="left">plot2</td>
+<td align="right">1</td>
+</tr>
+<tr class="odd">
+<td align="left">name_b</td>
+<td align="left">plot2</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left">name_x</td>
+<td align="left">plot2</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">name_j</td>
+<td align="left">plot2</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">name_r</td>
+<td align="left">plot2</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="left">name_e</td>
+<td align="left">plot2</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="left">name_s</td>
+<td align="left">plot2</td>
+<td align="right">7</td>
+</tr>
+<tr class="odd">
+<td align="left">name_q</td>
+<td align="left">plot2</td>
+<td align="right">8</td>
+</tr>
+<tr class="even">
+<td align="left">name_o</td>
+<td align="left">plot2</td>
+<td align="right">9</td>
+</tr>
+<tr class="odd">
+<td align="left">name_v</td>
+<td align="left">plot2</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="left">name_a</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_n</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_m</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_p</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_d</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_i</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_g</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_c</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_k</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_f</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_b</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_x</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_r</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_s</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_o</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>And finally, here we go!</p>

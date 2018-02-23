@@ -6,10 +6,19 @@
     <description>Recent content in Categories on We Love Apes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/categories/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Beyasian</title>
@@ -21,11 +30,38 @@
     </item>
     
     <item>
+      <title>Go</title>
+      <link>/categories/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo theme</title>
       <link>/categories/hugo-theme/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/hugo-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>/categories/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/jekyll/</guid>
       <description></description>
     </item>
     

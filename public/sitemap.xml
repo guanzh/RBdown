@@ -1,145 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2018-02-21T21:48:51-07:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/post/merge-two-table/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/24-hours-for-online/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/merge-two-table/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/test-rmd-plot/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/test-a-new-post/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/talk/example-talk/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/2016-12-30-hello-markdown/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/post/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/project/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/2015-01-01-lorem-ipsum/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/project/example-external-project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/bayesian-for-binomial/</loc>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/post/getting-started/</loc>
+      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/categories/beyasian/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication/person-re-identification/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/blogdown/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication/clothing-search/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication_types/1/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication_types/2/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/categories/hugo-theme/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/merge/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/</loc>
+      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/merge/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/publication_types/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/r/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/categories/r/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/table/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/rbind/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-02-21T21:48:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>/GuanZH/RBdown/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

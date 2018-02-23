@@ -1,549 +1,350 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
 
-<html>
-    <head>
-        
-            
-                <title>Merge two table</title>
-            
-        
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.36.1" />
+  <meta name="author" content="Geebbon">
 
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.36.1" />
-        
-
-
-        
-            <meta name="author" content="geebbon">
-        
-        
-            
-                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
-            
-        
-
-        <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Merge two table"/>
-<meta name="twitter:description" content="The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_z 1  name_f 2  name_a 3  name_d 4  name_n 5  name_p 6  name_o 7  name_s 8  name_l 9  name_w 10  name_t 11  name_k 12  name_m 13  name_g 14  name_q 15     Table 1: Some names not in table 1  name plot2    name_h 1  name_f 2  name_r 3  name_b 4  name_e 5  name_w 6  name_n 7  name_x 8  name_z 9  name_a 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse."/>
-<meta name="twitter:site" content="@example"/>
-
-        <meta property="og:title" content="Merge two table" />
-<meta property="og:description" content="The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_z 1  name_f 2  name_a 3  name_d 4  name_n 5  name_p 6  name_o 7  name_s 8  name_l 9  name_w 10  name_t 11  name_k 12  name_m 13  name_g 14  name_q 15     Table 1: Some names not in table 1  name plot2    name_h 1  name_f 2  name_r 3  name_b 4  name_e 5  name_w 6  name_n 7  name_x 8  name_z 9  name_a 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/post/merge-two-table/" />
-
-
-
-<meta property="article:published_time" content="2018-02-21T00:00:00&#43;00:00"/>
-
-<meta property="article:modified_time" content="2018-02-21T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-        <meta property="og:image" content="//images/logo.png">
-        <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="512">
-        <meta property="og:image:height" content="512">
-        
-<meta itemprop="name" content="Merge two table">
-<meta itemprop="description" content="The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_z 1  name_f 2  name_a 3  name_d 4  name_n 5  name_p 6  name_o 7  name_s 8  name_l 9  name_w 10  name_t 11  name_k 12  name_m 13  name_g 14  name_q 15     Table 1: Some names not in table 1  name plot2    name_h 1  name_f 2  name_r 3  name_b 4  name_e 5  name_w 6  name_n 7  name_x 8  name_z 9  name_a 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.">
-
-
-<meta itemprop="datePublished" content="2018-02-21T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-02-21T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="433">
-
-
-
-<meta itemprop="keywords" content="merge,r,table," />
-
-        
-
-        
-            
-        
-
-        
-        
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
-            <link rel="stylesheet" href="/css/main.css">
-            <link rel="stylesheet" href="/css/add-on.css">
-            <link rel="stylesheet" href="/css/academicons.min.css">
-        
-
-        
-            
-                
-            
-        
-
-
+  
+  
+  
   
     
-    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+      
+    
+  
+  <meta name="description" content="summary = “Create a beautifully simple website or blog in under 10 minutes.”
+The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
+ Table 1: Some names not in table 2  name plot1    name_a 1  name_y 2  name_q 3  name_n 4  name_m 5  name_v 6  name_p 7  name_d 8  name_i 9  name_g 10  name_c 11  name_k 12  name_f 13  name_j 14  name_e 15     Table 1: Some names not in table 1  name plot2    name_y 1  name_b 2  name_x 3  name_j 4  name_r 5  name_e 6  name_s 7  name_q 8  name_o 9  name_v 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/GuanZH/RBdown/post/merge-two-table/">
+
   
 
+
+  
+
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
+  
+  <link rel="stylesheet" href="/GuanZH/RBdown/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/GuanZH/RBdown/index.xml" type="application/rss+xml" title="LEARNING FROM APES">
+  <link rel="feed" href="/GuanZH/RBdown/index.xml" type="application/rss+xml" title="LEARNING FROM APES">
+  
+
+  <link rel="manifest" href="/GuanZH/RBdown/site.webmanifest">
+  <link rel="icon" type="image/png" href="/GuanZH/RBdown/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/GuanZH/RBdown/img/icon-192.png">
+
+  <link rel="canonical" href="/GuanZH/RBdown/post/merge-two-table/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@">
+  <meta property="twitter:creator" content="@">
+  
+  <meta property="og:site_name" content="LEARNING FROM APES">
+  <meta property="og:url" content="/GuanZH/RBdown/post/merge-two-table/">
+  <meta property="og:title" content="merge two table | LEARNING FROM APES">
+  <meta property="og:description" content="summary = “Create a beautifully simple website or blog in under 10 minutes.”
+The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
+ Table 1: Some names not in table 2  name plot1    name_a 1  name_y 2  name_q 3  name_n 4  name_m 5  name_v 6  name_p 7  name_d 8  name_i 9  name_g 10  name_c 11  name_k 12  name_f 13  name_j 14  name_e 15     Table 1: Some names not in table 1  name plot2    name_y 1  name_b 2  name_x 3  name_j 4  name_r 5  name_e 6  name_s 7  name_q 8  name_o 9  name_v 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-02-23T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-02-23T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>merge two table | LEARNING FROM APES</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/GuanZH/RBdown/">LEARNING FROM APES</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
 
       
-    </head>
-    <body>
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/GuanZH/RBdown/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
 
       
-      <div id="wrapper">
-
-    
-    
-<header id="header">
-    
-      <h1><a href="/">post</a></h1>
-    
-
-    <nav class="links">
-        <ul>
-            
-                <li>
-                    <a href="/">
-                            <i class="fa fa-home">&nbsp;</i>Home
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/about/">
-                            <i class="fa fa-id-card-o">&nbsp;</i>About
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/blog/">
-                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/itemized/">
-                            <i class="fa fa-list">&nbsp;</i>Itemized
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/categories/">
-                            <i class="fa fa-sitemap">&nbsp;</i>Categories
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/contact/">
-                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
-                    </a>
-                </li>
-            
-        </ul>
-    </nav>
-    <nav class="main">
-        <ul>
-            
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
-            
-            <li class="search">
-                <a class="fa-search" href="#search">Search</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="/">
-                </form>
-            </li>
-            <li class="menu">
-                <a class="fa-bars" href="#menu">Menu</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-
-
-<section id="menu">
-
-    
-        <section>
-            <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="/">
-            </form>
-        </section>
-
-    
-        <section>
-            <ul class="links">
-                
-                    <li>
-                        <a href="/">
-                            <h3>
-                                <i class="fa fa-home">&nbsp;</i>Home
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">
-                            <h3>
-                                <i class="fa fa-id-card-o">&nbsp;</i>About
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/blog/">
-                            <h3>
-                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/itemized/">
-                            <h3>
-                                <i class="fa fa-list">&nbsp;</i>Itemized
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories/">
-                            <h3>
-                                <i class="fa fa-sitemap">&nbsp;</i>Categories
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/contact/">
-                            <h3>
-                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
-                            </h3>
-                        </a>
-                    </li>
-                
-            </ul>
-        </section>
-
-    
-        <section class="recent-posts">
-            <div class="mini-posts">
-                <header>
-                    <h3>Recent Posts</h3>
-                </header>
-                
-
-                
-                    
-                
-
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/post/24-hours-for-online/">24 Hours for Online Moving</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-02-21'>
-                                    February 21, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/post/merge-two-table/">Merge two table</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-02-21'>
-                                    February 21, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/post/test-rmd-plot/">Test rmd plot</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-02-21'>
-                                    February 21, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/post/test-a-new-post/">test a new post</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-02-20'>
-                                    February 20, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/post/2016-12-30-hello-markdown/">A Plain Markdown Post</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2016-12-30'>
-                                    December 30, 2016</time>
-                            </header>
-                            
-
-                        </article>
-                
-
-                
-                    <a href=
-                        
-                            /blog/
-                        
-                        class="button">View more posts</a>
-                
-            </div>
-        </section>
-
-    
-        
-</section>
-
-    <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-
-<li>
-  <a href="//twitter.com/share?url=%2fpost%2fmerge-two-table%2f&amp;text=Merge%20two%20table&amp;via=example" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//plus.google.com/share?url=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-  </a>
-</li>
-
-
-
-
-
-<li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//reddit.com/submit?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn linkedin">
-      <i class="fa fa-linkedin"></i>
-      <p>LinkedIn</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.stumbleupon.com/submit?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2fmerge-two-table%2f&amp;description=Merge%20two%20table" target="_blank" class="share-btn pinterest">
-    <i class="fa fa-pinterest-p"></i>
-    <p>Pinterest</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="mailto:?subject=Check out this post by geebbon&amp;body=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
-
-
-        </ul>
-    </section>
-</section>
-
-    
-    <div id="main">
-        
-        
-        <article class="post">
-  <header>
-    <div class="title">
-        
-            <h1><a href="/post/merge-two-table/">Merge two table</a></h1>
-            
-        
-        
-    </div>
-    <div class="meta">
-        
-
-        <time class="published"
-            datetime='2018-02-21'>
-            February 21, 2018</time>
-        <span class="author">geebbon</span>
-        
-            <p>3 minute read</p>
-        
-        
-    </div>
-</header>
-
-
-  
-    <section id="social-share">
-      <ul class="icons">
-        
-
-
-
-<li>
-  <a href="//twitter.com/share?url=%2fpost%2fmerge-two-table%2f&amp;text=Merge%20two%20table&amp;via=example" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//plus.google.com/share?url=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-  </a>
-</li>
-
-
-
-
-
-<li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//reddit.com/submit?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.linkedin.com/shareArticle?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn linkedin">
-      <i class="fa fa-linkedin"></i>
-      <p>LinkedIn</p>
-    </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.stumbleupon.com/submit?url=%2fpost%2fmerge-two-table%2f&amp;title=Merge%20two%20table" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2fpost%2fmerge-two-table%2f&amp;description=Merge%20two%20table" target="_blank" class="share-btn pinterest">
-    <i class="fa fa-pinterest-p"></i>
-    <p>Pinterest</p>
-  </a>
-</li>
-
-
-
-
-<li>
-  <a href="mailto:?subject=Check out this post by geebbon&amp;body=%2fpost%2fmerge-two-table%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
-
-
       </ul>
-    </section>
-  
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
-  <div id="content">
-    <p>The question is how to merge two tables, it is easy to use <code>merge</code>. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.</p>
+
+  <div class="article-container">
+    <h1 itemprop="name">merge two table</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-02-23 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Feb 23, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Geebbon">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/GuanZH/RBdown/post/merge-two-table/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/GuanZH/RBdown/categories/r">r</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=merge%20two%20table&amp;url=%2fGuanZH%2fRBdown%2fpost%2fmerge-two-table%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fGuanZH%2fRBdown%2fpost%2fmerge-two-table%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fGuanZH%2fRBdown%2fpost%2fmerge-two-table%2f&amp;title=merge%20two%20table"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fGuanZH%2fRBdown%2fpost%2fmerge-two-table%2f&amp;title=merge%20two%20table"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=merge%20two%20table&amp;body=%2fGuanZH%2fRBdown%2fpost%2fmerge-two-table%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>summary = “Create a beautifully simple website or blog in under 10 minutes.”</p>
+<p>The question is how to merge two tables, it is easy to use <code>merge</code>. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.</p>
 <table>
 <caption><span id="tab:unnamed-chunk-1">Table 1: </span>Some names not in table 2</caption>
 <thead>
@@ -554,47 +355,47 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">name_z</td>
+<td align="left">name_a</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">name_f</td>
+<td align="left">name_y</td>
 <td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">name_a</td>
+<td align="left">name_q</td>
 <td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">name_d</td>
+<td align="left">name_n</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">name_n</td>
+<td align="left">name_m</td>
 <td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">name_p</td>
+<td align="left">name_v</td>
 <td align="right">6</td>
 </tr>
 <tr class="odd">
-<td align="left">name_o</td>
+<td align="left">name_p</td>
 <td align="right">7</td>
 </tr>
 <tr class="even">
-<td align="left">name_s</td>
+<td align="left">name_d</td>
 <td align="right">8</td>
 </tr>
 <tr class="odd">
-<td align="left">name_l</td>
+<td align="left">name_i</td>
 <td align="right">9</td>
 </tr>
 <tr class="even">
-<td align="left">name_w</td>
+<td align="left">name_g</td>
 <td align="right">10</td>
 </tr>
 <tr class="odd">
-<td align="left">name_t</td>
+<td align="left">name_c</td>
 <td align="right">11</td>
 </tr>
 <tr class="even">
@@ -602,15 +403,15 @@
 <td align="right">12</td>
 </tr>
 <tr class="odd">
-<td align="left">name_m</td>
+<td align="left">name_f</td>
 <td align="right">13</td>
 </tr>
 <tr class="even">
-<td align="left">name_g</td>
+<td align="left">name_j</td>
 <td align="right">14</td>
 </tr>
 <tr class="odd">
-<td align="left">name_q</td>
+<td align="left">name_e</td>
 <td align="right">15</td>
 </tr>
 </tbody>
@@ -625,43 +426,43 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">name_h</td>
+<td align="left">name_y</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">name_f</td>
+<td align="left">name_b</td>
 <td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">name_r</td>
+<td align="left">name_x</td>
 <td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">name_b</td>
+<td align="left">name_j</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">name_e</td>
+<td align="left">name_r</td>
 <td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">name_w</td>
+<td align="left">name_e</td>
 <td align="right">6</td>
 </tr>
 <tr class="odd">
-<td align="left">name_n</td>
+<td align="left">name_s</td>
 <td align="right">7</td>
 </tr>
 <tr class="even">
-<td align="left">name_x</td>
+<td align="left">name_q</td>
 <td align="right">8</td>
 </tr>
 <tr class="odd">
-<td align="left">name_z</td>
+<td align="left">name_o</td>
 <td align="right">9</td>
 </tr>
 <tr class="even">
-<td align="left">name_a</td>
+<td align="left">name_v</td>
 <td align="right">10</td>
 </tr>
 </tbody>
@@ -682,57 +483,57 @@ t_3_m &lt;- rbind(t_1_m, t_2_m)</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">name_z</td>
+<td align="left">name_a</td>
 <td align="left">plot1</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">name_f</td>
+<td align="left">name_y</td>
 <td align="left">plot1</td>
 <td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">name_a</td>
+<td align="left">name_q</td>
 <td align="left">plot1</td>
 <td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">name_d</td>
+<td align="left">name_n</td>
 <td align="left">plot1</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">name_n</td>
+<td align="left">name_m</td>
 <td align="left">plot1</td>
 <td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">name_p</td>
+<td align="left">name_v</td>
 <td align="left">plot1</td>
 <td align="right">6</td>
 </tr>
 <tr class="odd">
-<td align="left">name_o</td>
+<td align="left">name_p</td>
 <td align="left">plot1</td>
 <td align="right">7</td>
 </tr>
 <tr class="even">
-<td align="left">name_s</td>
+<td align="left">name_d</td>
 <td align="left">plot1</td>
 <td align="right">8</td>
 </tr>
 <tr class="odd">
-<td align="left">name_l</td>
+<td align="left">name_i</td>
 <td align="left">plot1</td>
 <td align="right">9</td>
 </tr>
 <tr class="even">
-<td align="left">name_w</td>
+<td align="left">name_g</td>
 <td align="left">plot1</td>
 <td align="right">10</td>
 </tr>
 <tr class="odd">
-<td align="left">name_t</td>
+<td align="left">name_c</td>
 <td align="left">plot1</td>
 <td align="right">11</td>
 </tr>
@@ -742,67 +543,67 @@ t_3_m &lt;- rbind(t_1_m, t_2_m)</code></pre>
 <td align="right">12</td>
 </tr>
 <tr class="odd">
-<td align="left">name_m</td>
+<td align="left">name_f</td>
 <td align="left">plot1</td>
 <td align="right">13</td>
 </tr>
 <tr class="even">
-<td align="left">name_g</td>
+<td align="left">name_j</td>
 <td align="left">plot1</td>
 <td align="right">14</td>
 </tr>
 <tr class="odd">
-<td align="left">name_q</td>
+<td align="left">name_e</td>
 <td align="left">plot1</td>
 <td align="right">15</td>
 </tr>
 <tr class="even">
-<td align="left">name_h</td>
+<td align="left">name_y</td>
 <td align="left">plot2</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">name_f</td>
+<td align="left">name_b</td>
 <td align="left">plot2</td>
 <td align="right">2</td>
 </tr>
 <tr class="even">
-<td align="left">name_r</td>
+<td align="left">name_x</td>
 <td align="left">plot2</td>
 <td align="right">3</td>
 </tr>
 <tr class="odd">
-<td align="left">name_b</td>
+<td align="left">name_j</td>
 <td align="left">plot2</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="left">name_e</td>
+<td align="left">name_r</td>
 <td align="left">plot2</td>
 <td align="right">5</td>
 </tr>
 <tr class="odd">
-<td align="left">name_w</td>
+<td align="left">name_e</td>
 <td align="left">plot2</td>
 <td align="right">6</td>
 </tr>
 <tr class="even">
-<td align="left">name_n</td>
+<td align="left">name_s</td>
 <td align="left">plot2</td>
 <td align="right">7</td>
 </tr>
 <tr class="odd">
-<td align="left">name_x</td>
+<td align="left">name_q</td>
 <td align="left">plot2</td>
 <td align="right">8</td>
 </tr>
 <tr class="even">
-<td align="left">name_z</td>
+<td align="left">name_o</td>
 <td align="left">plot2</td>
 <td align="right">9</td>
 </tr>
 <tr class="odd">
-<td align="left">name_a</td>
+<td align="left">name_v</td>
 <td align="left">plot2</td>
 <td align="right">10</td>
 </tr>
@@ -829,57 +630,57 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">name_z</td>
+<td align="left">name_a</td>
 <td align="left">plot1</td>
 <td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">name_f</td>
+<td align="left">name_y</td>
 <td align="left">plot1</td>
 <td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">name_a</td>
+<td align="left">name_q</td>
 <td align="left">plot1</td>
 <td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">name_d</td>
+<td align="left">name_n</td>
 <td align="left">plot1</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">name_n</td>
+<td align="left">name_m</td>
 <td align="left">plot1</td>
 <td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">name_p</td>
+<td align="left">name_v</td>
 <td align="left">plot1</td>
 <td align="right">6</td>
 </tr>
 <tr class="odd">
-<td align="left">name_o</td>
+<td align="left">name_p</td>
 <td align="left">plot1</td>
 <td align="right">7</td>
 </tr>
 <tr class="even">
-<td align="left">name_s</td>
+<td align="left">name_d</td>
 <td align="left">plot1</td>
 <td align="right">8</td>
 </tr>
 <tr class="odd">
-<td align="left">name_l</td>
+<td align="left">name_i</td>
 <td align="left">plot1</td>
 <td align="right">9</td>
 </tr>
 <tr class="even">
-<td align="left">name_w</td>
+<td align="left">name_g</td>
 <td align="left">plot1</td>
 <td align="right">10</td>
 </tr>
 <tr class="odd">
-<td align="left">name_t</td>
+<td align="left">name_c</td>
 <td align="left">plot1</td>
 <td align="right">11</td>
 </tr>
@@ -889,72 +690,82 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 <td align="right">12</td>
 </tr>
 <tr class="odd">
-<td align="left">name_m</td>
+<td align="left">name_f</td>
 <td align="left">plot1</td>
 <td align="right">13</td>
 </tr>
 <tr class="even">
-<td align="left">name_g</td>
+<td align="left">name_j</td>
 <td align="left">plot1</td>
 <td align="right">14</td>
 </tr>
 <tr class="odd">
-<td align="left">name_q</td>
+<td align="left">name_e</td>
 <td align="left">plot1</td>
 <td align="right">15</td>
 </tr>
 <tr class="even">
-<td align="left">name_h</td>
+<td align="left">name_y</td>
 <td align="left">plot2</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="left">name_f</td>
+<td align="left">name_b</td>
 <td align="left">plot2</td>
 <td align="right">2</td>
 </tr>
 <tr class="even">
-<td align="left">name_r</td>
+<td align="left">name_x</td>
 <td align="left">plot2</td>
 <td align="right">3</td>
 </tr>
 <tr class="odd">
-<td align="left">name_b</td>
+<td align="left">name_j</td>
 <td align="left">plot2</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="left">name_e</td>
+<td align="left">name_r</td>
 <td align="left">plot2</td>
 <td align="right">5</td>
 </tr>
 <tr class="odd">
-<td align="left">name_w</td>
+<td align="left">name_e</td>
 <td align="left">plot2</td>
 <td align="right">6</td>
 </tr>
 <tr class="even">
-<td align="left">name_n</td>
+<td align="left">name_s</td>
 <td align="left">plot2</td>
 <td align="right">7</td>
 </tr>
 <tr class="odd">
-<td align="left">name_x</td>
+<td align="left">name_q</td>
 <td align="left">plot2</td>
 <td align="right">8</td>
 </tr>
 <tr class="even">
-<td align="left">name_z</td>
+<td align="left">name_o</td>
 <td align="left">plot2</td>
 <td align="right">9</td>
 </tr>
 <tr class="odd">
-<td align="left">name_a</td>
+<td align="left">name_v</td>
 <td align="left">plot2</td>
 <td align="right">10</td>
 </tr>
 <tr class="even">
-<td align="left">name_d</td>
+<td align="left">name_a</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_n</td>
+<td align="left">plot2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_m</td>
 <td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
@@ -964,32 +775,12 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 <td align="right">0</td>
 </tr>
 <tr class="even">
-<td align="left">name_o</td>
+<td align="left">name_d</td>
 <td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
 <tr class="odd">
-<td align="left">name_s</td>
-<td align="left">plot2</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">name_l</td>
-<td align="left">plot2</td>
-<td align="right">0</td>
-</tr>
-<tr class="odd">
-<td align="left">name_t</td>
-<td align="left">plot2</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="left">name_k</td>
-<td align="left">plot2</td>
-<td align="right">0</td>
-</tr>
-<tr class="odd">
-<td align="left">name_m</td>
+<td align="left">name_i</td>
 <td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
@@ -999,18 +790,18 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 <td align="right">0</td>
 </tr>
 <tr class="odd">
-<td align="left">name_q</td>
+<td align="left">name_c</td>
 <td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
 <tr class="even">
-<td align="left">name_h</td>
-<td align="left">plot1</td>
+<td align="left">name_k</td>
+<td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
 <tr class="odd">
-<td align="left">name_r</td>
-<td align="left">plot1</td>
+<td align="left">name_f</td>
+<td align="left">plot2</td>
 <td align="right">0</td>
 </tr>
 <tr class="even">
@@ -1019,12 +810,22 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 <td align="right">0</td>
 </tr>
 <tr class="odd">
-<td align="left">name_e</td>
+<td align="left">name_x</td>
 <td align="left">plot1</td>
 <td align="right">0</td>
 </tr>
 <tr class="even">
-<td align="left">name_x</td>
+<td align="left">name_r</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">name_s</td>
+<td align="left">plot1</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">name_o</td>
 <td align="left">plot1</td>
 <td align="right">0</td>
 </tr>
@@ -1032,52 +833,32 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
 </table>
 <p>And finally, here we go!</p>
 
-  </div>
+    </div>
 
-  <footer>
-    <ul class="stats">
-  <li class="categories">
-    <ul>
-        
-            
-            
-                <i class="fa fa-folder"></i>
-                
-                
-                <li><a class="article-category-link" href="/categories/r">r</a></li>
-                
-            
-        
-    </ul>
-  </li>
-  <li class="tags">
-    <ul>
-        
-            
-            
-                <i class="fa fa-tags"></i>
-                
-                
-                <li><a class="article-category-link" href="/tags/merge">merge</a></li>
-                
-                
-                <li><a class="article-category-link" href="/tags/r">r</a></li>
-                
-                
-                <li><a class="article-category-link" href="/tags/table">table</a></li>
-                
-            
-        
-    </ul>
-  </li>
-</ul>
+    
 
-  </footer>
 
-</article>
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/GuanZH/RBdown/tags/merge">merge</a>
+  
+  <a class="btn btn-primary btn-outline" href="/GuanZH/RBdown/tags/r">r</a>
+  
+  <a class="btn btn-primary btn-outline" href="/GuanZH/RBdown/tags/rbind">rbind</a>
+  
+</div>
 
-    <article class="post">
-        <div id="disqus_thread"></div>
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -1090,492 +871,103 @@ tab.f &lt;- rbind(t_3_m,t1,t2)</code></pre>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.src = '//' + "guanzh" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </article>
-
-
-<ul class="actions pagination">
-    
-        <li><a href="/post/test-rmd-plot/"
-                class="button big previous">Test rmd plot</a></li>
-    
-
-    
-        <li><a href="/post/24-hours-for-online/"
-                class="button big next">24 Hours for Online Moving</a></li>
-    
-</ul>
-
-
-    </div>
-    
-<section id="sidebar">
-
-  
-  <section id="intro">
-    
-    
-    
-      <header>
-        <h2>We Love Apes</h2>
-        <p>Until now, there are four taxa of apes, three large apes and one lesser <i class='fa fa-hand-peace-o'></i></p>
-      </header>
-    
-    
-      <ul class="icons">
-        
-          
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
-
-
-        
-        
-  <li><a href="//github.com/jpescador/hugo-future-imperfect" target="_blank" title="GitHub" class="fa fa-github"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//flickr.com/photos/example" target="_blank" title="Flickr" class="fa fa-flickr"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
-
-
-
-  <li><a href="//linkedin.com/company/examplebusiness" target="_blank" title="LinkedIn Company" class="fa fa-linkedin"></a></li>
-
-
-
-
-
-
-
-
-
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
-
-
-
-
-
-  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//instagram.com/example" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
-
-
-
-
-
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
-
-
-
-
-
-
-
-  <li><a href="//pinterest.com/example" target="_blank" title="Pinterest" class="fa fa-pinterest-p"></a></li>
-
-
-
-  <li><a href="//telegram.me/example" target="_blank" title="telegram" class="fa fa-telegram"></a></li>
-
-
-
-
-
-
-
-
-
-<li><a href="//researchgate.net/profile/example" target="_blank" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
-
-
-
-  <li><a href="mailto:example" title="Email" class="fa fa-envelope"></a></li>
-
-
-      </ul>
-    
-  </section>
-
-  
-  <section class="recent-posts">
-    <div class="mini-posts">
-      <header>
-        <h3>Recent Posts</h3>
-      </header>
-      <div class="posts-container">
-        
-
-        
-          
-        
-
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/post/24-hours-for-online/">24 Hours for Online Moving</a>
-              </h3>
-              
-              <time class="published" datetime='2018-02-21'>
-                February 21, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/post/merge-two-table/">Merge two table</a>
-              </h3>
-              
-              <time class="published" datetime='2018-02-21'>
-                February 21, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/post/test-rmd-plot/">Test rmd plot</a>
-              </h3>
-              
-              <time class="published" datetime='2018-02-21'>
-                February 21, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/post/test-a-new-post/">test a new post</a>
-              </h3>
-              
-              <time class="published" datetime='2018-02-20'>
-                February 20, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/post/2016-12-30-hello-markdown/">A Plain Markdown Post</a>
-              </h3>
-              
-              <time class="published" datetime='2016-12-30'>
-                December 30, 2016
-              </time>
-            </header>
-            
-
-          </article>
-        
-      </div>
-
-      
-        <a href=
-          
-            /blog/
-          
-        class="button">View more posts</a>
-      
-    </div>
-  </section>
-
-  
-  
-  
-  
-  
-    <section id="categories">
-      <header>
-        <h3>
-          <a href="/categories/">Categories</a>
-        </h3>
-      </header>
-        
-          
-        
-
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="/categories/r/">R</a>
-                <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="/categories/hugo-theme/">Hugo theme</a>
-                <span style="float:right;">1</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="/categories/beyasian/">beyasian</a>
-                <span style="float:right;">1</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="/categories/r/">r</a>
-                <span style="float:right;">1</span>
-              
-            </header>
-          </article>
-        </p>
-        
-    </section>
-  
-  
-
-  
-  
-    <section id="mini-bio">
-      <h3>About</h3>
-      <p>For learning, for conservation</p>
-      <a href="/about/" class="button">Learn More</a>
-    </section>
-  
-
-  
-  <section id="footer">
-    
-      <ul class="icons">
-        
-          
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
-
-
-        
-        
-  <li><a href="//github.com/jpescador/hugo-future-imperfect" target="_blank" title="GitHub" class="fa fa-github"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//flickr.com/photos/example" target="_blank" title="Flickr" class="fa fa-flickr"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//linkedin.com/in/example" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
-
-
-
-  <li><a href="//linkedin.com/company/examplebusiness" target="_blank" title="LinkedIn Company" class="fa fa-linkedin"></a></li>
-
-
-
-
-
-
-
-
-
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
-
-
-
-
-
-  <li><a href="//reddit.com/user/example" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <li><a href="//instagram.com/example" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
-
-
-
-
-
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
-
-
-
-
-
-
-
-  <li><a href="//pinterest.com/example" target="_blank" title="Pinterest" class="fa fa-pinterest-p"></a></li>
-
-
-
-  <li><a href="//telegram.me/example" target="_blank" title="telegram" class="fa fa-telegram"></a></li>
-
-
-
-
-
-
-
-
-
-<li><a href="//researchgate.net/profile/example" target="_blank" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
-
-
-
-  <li><a href="mailto:example" title="Email" class="fa fa-envelope"></a></li>
-
-
-      </ul>
-    
-    <p class="copyright">
-      
-        &copy; 2018
-        
-          We Love Apes
-        
-      .
-      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
-    </p>
-  </section>
 </section>
 
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
     </div>
-    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+  </div>
+</div>
+
     
 
     
-      
+    
+    <script id="dsq-count-scr" src="//guanzh.disqus.com/count.js" async></script>
     
 
     
-      
-      
-      
-        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
-        
-        
-        
-        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
-        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
-        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
-        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-      
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
     
     
-    
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
-      <script src="/js/util.js"></script>
-      <script src="/js/main.js"></script>
-      <script src="/js/backToTop.js"></script>
+    <script src="/GuanZH/RBdown/js/hugo-academic.js"></script>
     
 
     
+    
       
-        
       
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
     
 
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+
   </body>
 </html>
 
