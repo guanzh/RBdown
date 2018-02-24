@@ -24,12 +24,12 @@ weight = 5
 [[education.courses]]
   course = "Biological Statistic"
   institution = "Southwest Forestry University"
-  year = ??
+  year = 2013
   
 [[education.courses]]
   course = "Behavioral Ecology of Primate"
   institution = "Southwest Forestry University"
-  year = ??
+  year = 2013
  
 +++
 

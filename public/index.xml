@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LEARNING FROM APES on LEARNING FROM APES</title>
-    <link>/GuanZH/RBdown/</link>
+    <link>/</link>
     <description>Recent content in LEARNING FROM APES on LEARNING FROM APES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/GuanZH/RBdown/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>merge two table</title>
-      <link>/GuanZH/RBdown/post/merge-two-table/</link>
+      <link>/post/merge-two-table/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/GuanZH/RBdown/post/merge-two-table/</guid>
+      <guid>/post/merge-two-table/</guid>
       <description>&lt;p&gt;summary = “Create a beautifully simple website or blog in under 10 minutes.”&lt;/p&gt;
 &lt;p&gt;The question is how to merge two tables, it is easy to use &lt;code&gt;merge&lt;/code&gt;. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.&lt;/p&gt;
 &lt;table&gt;
@@ -28,63 +28,63 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_n&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_m&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_w&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_t&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_c&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_j&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_h&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -99,15 +99,15 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_x&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
@@ -115,27 +115,27 @@
 &lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_r&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -156,92 +156,92 @@ t_3_m &amp;lt;- rbind(t_1_m, t_2_m)&lt;/code&gt;&lt;/pre&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_n&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_m&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_c&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_w&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_t&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_j&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_h&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_x&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
@@ -251,32 +251,32 @@ t_3_m &amp;lt;- rbind(t_1_m, t_2_m)&lt;/code&gt;&lt;/pre&gt;
 &lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_r&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
 &lt;/tr&gt;
@@ -303,92 +303,92 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_n&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_m&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_w&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_t&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_c&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_j&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_g&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_h&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_x&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_y&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
@@ -398,34 +398,44 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
 &lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_r&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_e&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_l&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_v&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;name_a&lt;/td&gt;
@@ -433,27 +443,17 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_n&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_w&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_m&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_t&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_d&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_q&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
@@ -463,42 +463,22 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_c&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_h&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_k&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_f&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_b&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_p&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_x&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_j&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_r&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_s&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;name_o&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;name_i&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;plot1&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
@@ -510,20 +490,20 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Example Talk</title>
-      <link>/GuanZH/RBdown/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>/GuanZH/RBdown/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>/GuanZH/RBdown/project/deep-learning/</link>
+      <link>/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/GuanZH/RBdown/project/deep-learning/</guid>
+      <guid>/project/deep-learning/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -538,19 +518,19 @@ tab.f &amp;lt;- rbind(t_3_m,t1,t2)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>External Project</title>
-      <link>/GuanZH/RBdown/project/example-external-project/</link>
+      <link>/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/GuanZH/RBdown/project/example-external-project/</guid>
+      <guid>/project/example-external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/GuanZH/RBdown/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/GuanZH/RBdown/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start guide&lt;/a&gt; or take a look at the &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
@@ -735,20 +715,20 @@ git submodule update --init --recursive
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/GuanZH/RBdown/publication/person-re-identification/</link>
+      <link>/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/GuanZH/RBdown/publication/person-re-identification/</guid>
+      <guid>/publication/person-re-identification/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Mobile visual clothing search</title>
-      <link>/GuanZH/RBdown/publication/clothing-search/</link>
+      <link>/publication/clothing-search/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/GuanZH/RBdown/publication/clothing-search/</guid>
+      <guid>/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
