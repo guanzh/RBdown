@@ -45,7 +45,7 @@ I work on gibbon conservation since 2008, including research on behavioral ecolo
     $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
       let release = json[0];
       // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);  
+      $('#academic-release').text('I use Academic Theme Latest release ' + release.name);  
     });    
 }  
 </script>

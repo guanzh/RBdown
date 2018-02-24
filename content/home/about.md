@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Biodiversity Conservation",
     "Apes",
-    "Statistics"
+    "Statistics",
+    "Biodiversity"
   ]
 
 # List your qualifications (such as academic degrees).
