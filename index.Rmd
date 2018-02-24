@@ -1,6 +1,6 @@
 ---
 site: blogdown:::blogdown_site
-title: My Golang Journey
+title: My Hugo Journey
 date: 2018-02-20
 publishdate: 2018-02-22
 ---

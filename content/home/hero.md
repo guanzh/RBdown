@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "Academic"
+title = "Learning from biodiversity"
 
 # Order that this section will appear in.
 weight = 3
@@ -20,11 +20,11 @@ weight = 3
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "./post/getting-started/"
-  label = '<i class="fa fa-download"></i> Install Now'
+#  url = "./post/getting-started/"
+#  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
+I work on gibbon conservation since 2008, including research on behavioral ecology, population survey and monitoring, and biodiversity conservation project :rocket:
 <br>
 <small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
 <br><br>
