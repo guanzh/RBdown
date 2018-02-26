@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Time series analysis in R</title>
+      <link>/post/time-series-analysis-in-r/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/time-series-analysis-in-r/</guid>
+      <description>It is about how to analyze time series using R package ts, which can analyze and predict.
+Header
+ # 首先建立一个模拟的向量可以表示真实世界的时间序列数据过程。比如从1到100，但具有随机噪音 set.seed(123) t &amp;lt;- seq(from = 1, to = 100, by = 1) + 10 + rnorm(100, sd = 7) plot(t) # 使用args函数看函数的参数设置 args(ts) ## function (data = NA, start = 1, end = numeric(), frequency = 1, ## deltat = 1, ts.eps = getOption(&amp;quot;ts.eps&amp;quot;), class = if (nseries &amp;gt; ## 1) c(&amp;quot;mts&amp;quot;, &amp;quot;ts&amp;quot;, &amp;quot;matrix&amp;quot;) else &amp;quot;ts&amp;quot;, names = if (!</description>
+    </item>
+    
+    <item>
       <title>merge two table</title>
       <link>/post/merge-two-table/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>

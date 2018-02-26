@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/time-series-analysis-in-r/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/merge-two-table/</loc>
       <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     </url>
@@ -193,7 +202,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -203,7 +212,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
