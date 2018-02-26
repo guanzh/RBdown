@@ -27,7 +27,9 @@ weight = 3
 I work on gibbon conservation since 2008, including research on behavioral ecology, population survey and monitoring, and biodiversity conservation project :rocket:
 <br>
 <small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
-
+<br><br>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe>
 
 <script type="text/javascript">
   (function defer() {

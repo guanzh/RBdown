@@ -18,7 +18,7 @@
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
       
       <guid>/home/hero/</guid>
-      <description>I work on gibbon conservation since 2008, including research on behavioral ecology, population survey and monitoring, and biodiversity conservation project 🚀 Latest release
+      <description>I work on gibbon conservation since 2008, including research on behavioral ecology, population survey and monitoring, and biodiversity conservation project 🚀 Latest release  
 (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;I use Academic Theme Latest release &#39; + release.name); }); }  </description>
     </item>
     
