@@ -19,8 +19,7 @@
       
       <guid>/post/time-series-analysis-in-r/</guid>
       <description>It is about how to analyze time series using R package ts, which can analyze and predict.
-Header
- # 首先建立一个模拟的向量可以表示真实世界的时间序列数据过程。比如从1到100，但具有随机噪音 set.seed(123) t &amp;lt;- seq(from = 1, to = 100, by = 1) + 10 + rnorm(100, sd = 7) plot(t) # 使用args函数看函数的参数设置 args(ts) ## function (data = NA, start = 1, end = numeric(), frequency = 1, ## deltat = 1, ts.eps = getOption(&amp;quot;ts.eps&amp;quot;), class = if (nseries &amp;gt; ## 1) c(&amp;quot;mts&amp;quot;, &amp;quot;ts&amp;quot;, &amp;quot;matrix&amp;quot;) else &amp;quot;ts&amp;quot;, names = if (!</description>
+# 首先建立一个模拟的向量可以表示真实世界的时间序列数据过程。比如从1到100，但具有随机噪音 set.seed(123) t &amp;lt;- seq(from = 1, to = 100, by = 1) + 10 + rnorm(100, sd = 7) plot(t) # 使用args函数看函数的参数设置 args(ts) ## function (data = NA, start = 1, end = numeric(), frequency = 1, ## deltat = 1, ts.eps = getOption(&amp;quot;ts.eps&amp;quot;), class = if (nseries &amp;gt; ## 1) c(&amp;quot;mts&amp;quot;, &amp;quot;ts&amp;quot;, &amp;quot;matrix&amp;quot;) else &amp;quot;ts&amp;quot;, names = if (!</description>
     </item>
     
     <item>
@@ -29,9 +28,8 @@ Header
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/merge-two-table/</guid>
-      <description>Header
- The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_j 1  name_w 2  name_z 3  name_f 4  name_a 5  name_e 6  name_u 7  name_y 8  name_t 9  name_m 10  name_r 11  name_o 12  name_l 13  name_x 14  name_q 15     Table 1: Some names not in table 1  name plot2    name_o 1  name_w 2  name_b 3  name_a 4  name_c 5  name_y 6  name_i 7  name_e 8  name_g 9  name_d 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
+      <description>The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
+ Table 1: Some names not in table 2  name plot1    name_r 1  name_x 2  name_o 3  name_m 4  name_v 5  name_j 6  name_n 7  name_w 8  name_y 9  name_t 10  name_d 11  name_u 12  name_c 13  name_h 14  name_f 15     Table 1: Some names not in table 1  name plot2    name_e 1  name_i 2  name_b 3  name_j 4  name_c 5  name_u 6  name_f 7  name_r 8  name_s 9  name_p 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
     </item>
     
     <item>

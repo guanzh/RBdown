@@ -5,15 +5,13 @@ date: '2018-02-26'
 slug: time-series-analysis-in-r
 categories: []
 tags: []
+draft: true
+summary: "It is about how to analyze time series using R package ts, which can analyze and predict."
 ---
 
 
 
 <p>It is about how to analyze time series using R package ts, which can analyze and predict.</p>
-<div class="figure">
-<img src="../../static/img/headers/keepgoing.png" alt="Header" />
-<p class="caption">Header</p>
-</div>
 <pre class="r"><code># 首先建立一个模拟的向量可以表示真实世界的时间序列数据过程。比如从1到100，但具有随机噪音
 set.seed(123)
 t &lt;- seq(from = 1, to = 100, by = 1) + 10 + rnorm(100, sd = 7)

@@ -9,9 +9,8 @@ tags:
   - merge
   - r
   - rbind
+summary: "The question is how to merge two tables with different dimensions"
 ---
-
-![Header](../../static/img/headers/keepgoing.png)
 
 The question is how to merge two tables, it is easy to use `merge`.
 However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
