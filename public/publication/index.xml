@@ -13,21 +13,30 @@
     
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>How many remnant gibbon populations are left on Hainan? Testing the use of local ecological knowledge to detect cryptic threatened primates</title>
+      <link>/publication/hainangibbonsurvey/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/hainangibbonsurvey/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Gibbon grooming social network</title>
+      <link>/publication/gibbongroomingsocial/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/gibbongroomingsocial/</guid>
+      <description>More work are continuing&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Proximity association in polygynous western black crested gibbons (Nomascus concolor jingdongensis): network structure and seasonality</title>
+      <link>/publication/gibbonproximity/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gibbonproximity/</guid>
+      <description>More work are continuing&amp;hellip;&amp;hellip;</description>
     </item>
     
   </channel>
