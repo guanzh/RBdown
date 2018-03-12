@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2018-02-23T00:00:00"
+date = "2018-03-12T00:00:00"
 
 # Order that this section will appear in.
 weight = 5
@@ -10,29 +10,25 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Apes",
-    "Statistics",
-    "Biodiversity"
+    "Ecological behavior",
+    "Conservation",
+    "Primates and apes"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Zoology"
-  institution = "Chinese Academy of Science KIZ"
+  institution = "Kunming Institute of Zoology, Chinese Academy of Science"
   year = 2013
 
+
 [[education.courses]]
-  course = "Biological Statistic"
-  institution = "Southwest Forestry University"
-  year = 2013
-  
-[[education.courses]]
-  course = "Behavioral Ecology of Primate"
-  institution = "Southwest Forestry University"
-  year = 2013
+  course = "BSc in Science of Biology"
+  institution = "Northwest University, China"
+  year = 2006
  
 +++
 
 # Biography
 
-Dr. Geebbon is a assistant professor of zoology at Southwest Forestry University. Our team work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science. 
+Dr. Geebbon is a assistant professor of Zoology at Southwest Forestry University. We work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science.

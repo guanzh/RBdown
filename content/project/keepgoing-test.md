@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = "2018-03-07"
+date = "2018-03-12"
 
 # Project title.
-title = "Biodiversity Conservation"
+title = "Keep going on the road"
 
 # Project summary to display on homepage.
-summary = "We are design programs for the conservation of biodiversity in some region "
+summary = "Test for the new website"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "gibbon.jpg"
+image_preview = "headers/keepgoing.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["biodiversity"]
+tags = ["testHugo"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,4 +28,4 @@ caption = "My caption :smile:"
 
 +++
 
-We are working on designing and implement biodiversity in some places. 
+Creat this post for testing!!!

@@ -2,7 +2,7 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = "2018-03-07T00:00:00"
+date = "2018-03-12T00:00:00"
 
 title = "Projects"
 subtitle = ""
@@ -33,12 +33,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "biodiversity"
-  tag = ".biodiversity"
+  name = "Conservation"
+  tag = ".conservation"
 
 [[filter]]
-  name = "cloudMountain"
-  tag = ".cloudmountain"
+  name = "Research"
+  tag = ".research"
+  
+[[filter]]
+  name = "Technique"
+  tag = ".r"  
 
 +++
 

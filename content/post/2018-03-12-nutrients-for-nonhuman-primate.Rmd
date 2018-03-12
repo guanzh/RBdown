@@ -1,0 +1,14 @@
+---
+title: Nutrients for nonhuman primate
+author: Geebbon
+date: '2018-03-12'
+slug: nutrients-for-nonhuman-primate
+categories:
+  - Research
+tags:
+  - nutrient
+  - primate
+summary: "Let's think about nutrients"
+---
+
+Protein is important for primates, because it is the vital source for amino acids.

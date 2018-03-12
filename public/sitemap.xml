@@ -5,17 +5,8 @@
     
     <url>
     
-      <loc>/project/biodiversityprogram/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/example-external-project/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -23,8 +14,8 @@
     
     <url>
     
-      <loc>/post/time-series-analysis-in-r/</loc>
-      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <loc>/project/keepgoing-test/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -32,17 +23,8 @@
     
     <url>
     
-      <loc>/post/merge-two-table/</loc>
-      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/hainangibbonsurvey/</loc>
-      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+      <loc>/post/nutrients-for-nonhuman-primate/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -51,15 +33,6 @@
     <url>
     
       <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,17 +77,8 @@
     
     <url>
     
-      <loc>/publication/gibbongroomingsocial/</loc>
-      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/gibbonproximity/</loc>
-      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+      <loc>/publication/2018-03-12-social-grooming-for-gibbon/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -123,17 +87,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/biodiversity/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -152,7 +106,7 @@
     <url>
     
       <loc>/tags/cloudmountain/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -162,7 +116,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <lastmod>2018-03-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -171,8 +125,18 @@
     
     <url>
     
-      <loc>/tags/merge/</loc>
-      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <loc>/tags/nutrient/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/primate/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -182,7 +146,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -192,7 +156,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -201,8 +165,8 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
-      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <loc>/publication/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -211,18 +175,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/rbind/</loc>
-      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <loc>/categories/research/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -233,6 +187,16 @@
     
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/testhugo/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
