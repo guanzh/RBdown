@@ -16,7 +16,7 @@ image_preview = "boards.jpg"
 tags = ["cloudmountain"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://www.cloudmoutain.cn"
+external_link = "http://www.cloudmountain.cn/"
 
 # Does the project detail page use math formatting?
 math = false

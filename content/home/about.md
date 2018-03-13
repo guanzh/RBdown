@@ -18,7 +18,7 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Zoology"
-  institution = "Kunming Institute of Zoology, Chinese Academy of Science"
+  institution = "Kunming Institute of Zoology, Chinese Academy of Sciences"
   year = 2013
 
 
@@ -31,4 +31,4 @@ weight = 5
 
 # Biography
 
-Dr. Geebbon is a assistant professor of Zoology at Southwest Forestry University. We work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science.
+Dr. Geebbon is an assistant professor of Zoology at Southwest Forestry University. We work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science.

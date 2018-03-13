@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Population Monitoring of Gibbons in China</title>
+      <link>/publication/2018-03-13-china-gibbon-monitoring/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-03-13-china-gibbon-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
@@ -47,6 +56,15 @@
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>How many remnant gibbon populations are left on Hainan?</title>
+      <link>/publication/2018-03-13-hainan-gibbon-survey/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-03-13-hainan-gibbon-survey/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -235,6 +253,15 @@ git submodule update --init --recursive
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Proximity association in polygynous gibbons</title>
+      <link>/publication/2018-03-13-gibbon-proximity/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-03-13-gibbon-proximity/</guid>
+      <description></description>
     </item>
     
     <item>
