@@ -26,7 +26,7 @@ abstract = "For Critically Endangered 'species of extreme rarity', there is an u
 abstract_short = "It is interesting how we use local ecological knowledge to inform conservation"
 
 # Featured image thumbnail (optional)
-image_preview = "hainanGibbonSurvey.jpg"
+image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
