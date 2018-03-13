@@ -1,0 +1,47 @@
+---
+title: Step to Student Opening Report
+author: Geebbon
+date: '2018-03-13'
+slug: step-to-student-opening-report
+categories:
+  - Student
+tags:
+  - Step work
+summary: "Procedure to student opening report defence"
+---
+
+Anyway, I still do some student work, including secretary working for opening report defencing. So I use grViz to make a step graph for the procedure. 
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(DiagrammeR)
+grViz("
+digraph boxes_and_circles {
+
+  # a 'graph' statement
+  graph [overlap = true, fontsize = 10]
+
+  # several 'node' statements
+  node [shape = box,
+        fontname = Helvetica, color=OrangeRed]
+  a [label = 'Defence Secretary'];
+  b [label = 'Defence Chairman'];
+  c [label = 'Teaching Secretary']; 
+  d [label = 'All the students']; 
+  e [label = 'All the teachers'] 
+
+  # several 'edge' statements
+  a -> b [label = 'determine the name list of student', arrowhead = diamond]
+  a -> c [label = 'determine the date and classroom', arrowhead = diamond]
+  c -> e [arrowhead = diamond]
+  d -> e [arrowhead = diamond]
+  a -> d [label = 'collect all the opening reports', arrowhead = diamond]
+  a -> e [label = 'opening report defence with students', arrowhead = diamond]
+}
+")
+
+```
+
+Looks awful! 
+
+Still help!

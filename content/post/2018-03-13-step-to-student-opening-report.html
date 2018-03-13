@@ -1,0 +1,23 @@
+---
+title: Step to Student Opening Report
+author: Geebbon
+date: '2018-03-13'
+slug: step-to-student-opening-report
+categories:
+  - Student
+tags:
+  - Step work
+summary: "Procedure to student opening report defence"
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/viz/viz.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/grViz-binding/grViz.js"></script>
+
+
+<p>Anyway, I still do some student work, including secretary working for opening report defencing. So I use grViz to make a step graph for the procedure.</p>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\ndigraph boxes_and_circles {\n\n  # a \"graph\" statement\n  graph [overlap = true, fontsize = 10]\n\n  # several \"node\" statements\n  node [shape = box,\n        fontname = Helvetica, color=OrangeRed]\n  a [label = \"Defence Secretary\"];\n  b [label = \"Defence Chairman\"];\n  c [label = \"Teaching Secretary\"]; \n  d [label = \"All the students\"]; \n  e [label = \"All the teachers\"] \n\n  # several \"edge\" statements\n  a -> b [label = \"determine the name list of student\", arrowhead = diamond]\n  a -> c [label = \"determine the date and classroom\", arrowhead = diamond]\n  c -> e [arrowhead = diamond]\n  d -> e [arrowhead = diamond]\n  a -> d [label = \"collect all the opening reports\", arrowhead = diamond]\n  a -> e [label = \"opening report defence with students\", arrowhead = diamond]\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Looks awful!</p>
+<p>Still help!</p>

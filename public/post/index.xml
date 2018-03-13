@@ -13,12 +13,24 @@
     
     
     <item>
+      <title>Step to Student Opening Report</title>
+      <link>/post/step-to-student-opening-report/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/step-to-student-opening-report/</guid>
+      <description>Anyway, I still do some student work, including secretary working for opening report defencing. So I use grViz to make a step graph for the procedure.
+ {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ndigraph boxes_and_circles {\n\n # a \&#34;graph\&#34; statement\n graph [overlap = true, fontsize = 10]\n\n # several \&#34;node\&#34; statements\n node [shape = box,\n fontname = Helvetica, color=OrangeRed]\n a [label = \&#34;Defence Secretary\&#34;];\n b [label = \&#34;Defence Chairman\&#34;];\n c [label = \&#34;Teaching Secretary\&#34;</description>
+    </item>
+    
+    <item>
       <title>Nutrients for nonhuman primate</title>
       <link>/post/nutrients-for-nonhuman-primate/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/nutrients-for-nonhuman-primate/</guid>
-      <description>Protein is important for primates, because it is the vital source for amino acids.</description>
+      <description>Protein is important for primates, because it is the vital source for amino acids.
+When we talk about strategy, it is usually an action under a trade-off situation. So, we think the primate may intake AP and TNC with balance proportion.
+And this strategy may be used to balance more nutrients.</description>
     </item>
     
     <item>
