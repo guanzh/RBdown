@@ -6,10 +6,10 @@ date = "2018-03-12"
 title = "Conservation Project"
 
 # Project summary to display on homepage.
-summary = "This is a link to Cloud Mountain"
+summary = "This is a link to Cloud Mountain Conservation"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "cmlogof.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
