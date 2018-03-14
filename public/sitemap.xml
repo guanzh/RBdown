@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/project/tianxinggibbon/</loc>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/step-to-student-opening-report/</loc>
       <lastmod>2018-03-13T00:00:00+00:00</lastmod>
     </url>
@@ -104,6 +113,15 @@
     
     <url>
     
+      <loc>/publication/2018-03-14-hoolock-gibbon-survey/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2018-03-13-gibbon-proximity/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -141,6 +159,16 @@
     
     <url>
     
+      <loc>/publication_types/4/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -152,6 +180,16 @@
     
       <loc>/tags/cloudmountain/</loc>
       <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/hoolock/</loc>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -191,7 +229,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
