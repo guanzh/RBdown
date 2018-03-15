@@ -31,4 +31,4 @@ weight = 5
 
 # Biography
 
-Dr. Geebbon is an assistant professor of Zoology at Southwest Forestry University. We work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science.
+Dr. Geebbon is an assistant professor of Zoology at [Southwest Forestry University](https://www.swfu.edu.cn/). We work on conservation of apes and biodiversity. Our research interests include apes, conservation, primate society and popular science.
