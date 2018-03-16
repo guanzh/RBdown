@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>How to merge to graph using same y axis</title>
+      <link>/post/how-to-merge-to-graph-using-same-y-axis/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-merge-to-graph-using-same-y-axis/</guid>
+      <description>In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.
+next is the graph using ggplotGrob
+Not exactly, but step forward.</description>
+    </item>
+    
+    <item>
       <title>Remembering Hawking</title>
       <link>/post/rememberinghawking/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>

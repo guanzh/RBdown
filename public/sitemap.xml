@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/talk/yabteamtalk/</loc>
+      <lastmod>2018-03-26T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/how-to-merge-to-graph-using-same-y-axis/</loc>
+      <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/tianxinggibbon/</loc>
       <lastmod>2018-03-14T00:00:00+00:00</lastmod>
     </url>
@@ -79,15 +97,6 @@
     
       <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -197,8 +206,8 @@
     
     <url>
     
-      <loc>/tags/hawking/</loc>
-      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+      <loc>/tags/ggplot/</loc>
+      <lastmod>2018-03-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -208,6 +217,16 @@
     <url>
     
       <loc>/categories/hawking/</loc>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/hawking/</loc>
       <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -239,6 +258,16 @@
     
       <loc>/tags/nutrient/</loc>
       <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/plot/</loc>
+      <lastmod>2018-03-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -279,6 +308,16 @@
     
       <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2018-03-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -11,6 +11,30 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The primate in forest in Yunnan</title>
+      <link>/talk/yabteamtalk/</link>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/talk/yabteamtalk/</guid>
+      <description>&lt;p&gt;Good luck !!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to merge to graph using same y axis</title>
+      <link>/post/how-to-merge-to-graph-using-same-y-axis/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-merge-to-graph-using-same-y-axis/</guid>
+      <description>&lt;p&gt;In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;next is the graph using ggplotGrob&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Not exactly, but step forward.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hoolock gibbon conservation in China</title>
       <link>/project/tianxinggibbon/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
@@ -95,16 +119,6 @@
       
       <guid>/publication/2018-03-13-china-gibbon-monitoring/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
     </item>
     
     <item>
