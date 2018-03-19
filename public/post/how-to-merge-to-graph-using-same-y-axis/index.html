@@ -18,8 +18,8 @@
     
   
   <meta name="description" content="In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.
-next is the graph using ggplotGrob
-Not exactly, but step forward.">
+I use code from stackexchange.com
+library(&quot;PtProcess&quot;) lambda &lt;- 1.5 a &lt;- 1 pareto &lt;- rpareto(1000,lambda=lambda,a=a) x_pareto &lt;- seq(from=min(pareto),to=max(pareto),length=1000) y_pareto &lt;- 1-ppareto(x_pareto,lambda,a) df1 &lt;- data.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/how-to-merge-to-graph-using-same-y-axis/">
@@ -55,7 +55,7 @@ Not exactly, but step forward.">
   
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
   
   <link rel="stylesheet" href="/styles.css">
   
@@ -82,8 +82,8 @@ Not exactly, but step forward.">
   <meta property="og:url" content="/post/how-to-merge-to-graph-using-same-y-axis/">
   <meta property="og:title" content="How to merge to graph using same y axis | LEARNING FROM APES">
   <meta property="og:description" content="In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.
-next is the graph using ggplotGrob
-Not exactly, but step forward.">
+I use code from stackexchange.com
+library(&quot;PtProcess&quot;) lambda &lt;- 1.5 a &lt;- 1 pareto &lt;- rpareto(1000,lambda=lambda,a=a) x_pareto &lt;- seq(from=min(pareto),to=max(pareto),length=1000) y_pareto &lt;- 1-ppareto(x_pareto,lambda,a) df1 &lt;- data.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-03-16T00:00:00&#43;00:00">
@@ -344,8 +344,43 @@ Not exactly, but step forward.">
 
     <div class="article-style" itemprop="articleBody">
       <p>In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.</p>
+<p>I use code from stackexchange.com</p>
+<pre class="r"><code>library(&quot;PtProcess&quot;)
+lambda &lt;- 1.5
+a &lt;- 1
+pareto &lt;- rpareto(1000,lambda=lambda,a=a)
+x_pareto &lt;- seq(from=min(pareto),to=max(pareto),length=1000)
+y_pareto &lt;- 1-ppareto(x_pareto,lambda,a)
+df1 &lt;- data.frame(x=x_pareto,cdf=y_pareto)
+
+library(ggplot2)
+library(gridExtra)
+g1 &lt;- ggplot(df1,aes(x=x,y=cdf)) + geom_line() + scale_x_log10()+
+  theme(plot.margin = unit(c(0,-.5,0,.5), &quot;lines&quot;),
+            plot.background = element_blank()) +
+      ggtitle(&quot;pareto&quot;)
+
+
+mean &lt;- 3
+norm &lt;- rnorm(1000,mean=mean)
+x_norm &lt;- seq(from=min(norm),to=max(norm),length=1000)
+y_norm &lt;- pnorm(x_norm,mean=mean)
+df2 &lt;- data.frame(x=x_norm,cdf=y_norm)
+
+g2 &lt;- ggplot(df2,aes(x=x,y=cdf)) + geom_line()+
+  theme(axis.text.y = element_blank(), 
+            axis.ticks.y = element_blank(), 
+            axis.title.y = element_blank(),
+            plot.margin = unit(c(0,1,0,-1), &quot;lines&quot;),
+            plot.background = element_blank()) +
+      ggtitle(&quot;norm&quot;)
+grid.arrange(g1, g2, ncol=2)  </code></pre>
 <p><img src="/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p>next is the graph using ggplotGrob</p>
+<pre class="r"><code>G1 &lt;- ggplotGrob(g1)
+G2 &lt;- ggplotGrob(g2)
+
+grid.arrange(G1, G2, ncol=2)</code></pre>
 <p><img src="/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>Not exactly, but step forward.</p>
 

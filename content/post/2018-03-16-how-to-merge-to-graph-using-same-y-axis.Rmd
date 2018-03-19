@@ -15,8 +15,8 @@ summary:
 
 In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.
 
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+I use code from stackexchange.com
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
 library("PtProcess")
 lambda <- 1.5
@@ -53,7 +53,7 @@ grid.arrange(g1, g2, ncol=2)
 
 next is the graph using ggplotGrob
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
 G1 <- ggplotGrob(g1)
 G2 <- ggplotGrob(g2)
 
