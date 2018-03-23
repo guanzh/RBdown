@@ -355,8 +355,7 @@ df1 &lt;- data.frame(x=x_pareto,cdf=y_pareto)
 
 library(ggplot2)
 library(gridExtra)
-g1 &lt;- ggplot(df1,aes(x=x,y=cdf)) + geom_line() + scale_x_log10()+
-  theme(plot.margin = unit(c(0,-.5,0,.5), &quot;lines&quot;),
+g1 &lt;- ggplot(df1,aes(x=x,y=cdf)) + geom_line() + scale_x_log10()+ ylim(0,1.2)+  theme(plot.margin = unit(c(0,-.5,0,.5), &quot;lines&quot;),
             plot.background = element_blank()) +
       ggtitle(&quot;pareto&quot;)
 
@@ -367,7 +366,7 @@ x_norm &lt;- seq(from=min(norm),to=max(norm),length=1000)
 y_norm &lt;- pnorm(x_norm,mean=mean)
 df2 &lt;- data.frame(x=x_norm,cdf=y_norm)
 
-g2 &lt;- ggplot(df2,aes(x=x,y=cdf)) + geom_line()+
+g2 &lt;- ggplot(df2,aes(x=x,y=cdf)) + geom_line()+ ylim(0,1.2)+
   theme(axis.text.y = element_blank(), 
             axis.ticks.y = element_blank(), 
             axis.title.y = element_blank(),
@@ -382,7 +381,15 @@ G2 &lt;- ggplotGrob(g2)
 
 grid.arrange(G1, G2, ncol=2)</code></pre>
 <p><img src="/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<p>Not exactly, but step forward.</p>
+<p>Not exactly, but step forward. Finally, I use <code>grid</code> method.</p>
+<pre class="r"><code>library(grid)
+grid.newpage()
+grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &quot;last&quot;))</code></pre>
+<p><img src="/post/2018-03-16-how-to-merge-to-graph-using-same-y-axis_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code># library(gridExtra)
+# g &lt;- arrangeGrob(g1, g2,nrow=1) 
+# plot(g)</code></pre>
+<p>A great work!</p>
 
     </div>
 

@@ -60,7 +60,7 @@ grid.arrange(G1, G2, ncol=2)
 
 ```
 
-Not exactly, but step forward. Finally, I use `r grid` method.
+Not exactly, but step forward. Finally, I use `grid` method.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
 

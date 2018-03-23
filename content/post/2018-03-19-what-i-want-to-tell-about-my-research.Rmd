@@ -8,7 +8,7 @@ categories:
 tags:
   - Step work
 summary:
-  - "It should be information in the simplest way"
+  "It should be information in the simplest way"
 ---
 
 About primates, what do I want to tell the others?
