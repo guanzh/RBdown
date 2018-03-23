@@ -28,8 +28,7 @@ df1 <- data.frame(x=x_pareto,cdf=y_pareto)
 
 library(ggplot2)
 library(gridExtra)
-g1 <- ggplot(df1,aes(x=x,y=cdf)) + geom_line() + scale_x_log10()+
-  theme(plot.margin = unit(c(0,-.5,0,.5), "lines"),
+g1 <- ggplot(df1,aes(x=x,y=cdf)) + geom_line() + scale_x_log10()+ ylim(0,1.2)+  theme(plot.margin = unit(c(0,-.5,0,.5), "lines"),
             plot.background = element_blank()) +
       ggtitle("pareto")
 
@@ -40,7 +39,7 @@ x_norm <- seq(from=min(norm),to=max(norm),length=1000)
 y_norm <- pnorm(x_norm,mean=mean)
 df2 <- data.frame(x=x_norm,cdf=y_norm)
 
-g2 <- ggplot(df2,aes(x=x,y=cdf)) + geom_line()+
+g2 <- ggplot(df2,aes(x=x,y=cdf)) + geom_line()+ ylim(0,1.2)+
   theme(axis.text.y = element_blank(), 
             axis.ticks.y = element_blank(), 
             axis.title.y = element_blank(),
@@ -61,6 +60,17 @@ grid.arrange(G1, G2, ncol=2)
 
 ```
 
+Not exactly, but step forward. Finally, I use `r grid` method.
 
-Not exactly, but step forward.
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
+library(grid)
+grid.newpage()
+grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = "last"))
+# library(gridExtra)
+# g <- arrangeGrob(g1, g2,nrow=1) 
+# plot(g)
+
+```
+
+A great work!
