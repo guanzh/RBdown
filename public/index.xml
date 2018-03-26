@@ -11,12 +11,49 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The primate in forest in Yunnan</title>
+      <title>The primate in forests</title>
       <link>/talk/yabteamtalk/</link>
       <pubDate>Mon, 26 Mar 2018 00:00:00 +0800</pubDate>
       
       <guid>/talk/yabteamtalk/</guid>
-      <description>&lt;p&gt;Good luck !!!&lt;/p&gt;
+      <description>&lt;p&gt;This is opening ceremony with the first speech. I gave the speech on the topic &amp;ldquo;The apes and monkeys in Yunnan&amp;rdquo;. In this speech, I talk about primates on the earth. Specifically, I talk leave monkeys and gibbons in Yunnan. All the junior school students showed their passion and curiosity on my topic. Start with the figure &amp;ldquo;King of monkey&amp;rdquo;, end with how we conduct research on them, and why they need conservation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/talking1.jpg&#34; width=&#34;1000px&#34; height=&#34;200px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/talking2.jpg&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scraping data from wiki to analyze olympic medal</title>
+      <link>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</guid>
+      <description>&lt;p&gt;Today I learn Edwin Thoen from R-blogger. The topic is how to scrape the data from wikepedia and tidy the data in a format in which they can be analyzed. Thank Edwin for sharing the code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scrape data from website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I use &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;tidy&lt;/code&gt; package.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;rvest&amp;quot;)
+library(tidyverse)
+library(stringr)
+Olympics_2018_wiki &amp;lt;- read_html(&amp;quot;https://en.wikipedia.org/wiki/List_of_2018_Winter_Olympics_medal_winners&amp;quot;)
+sports &amp;lt;- html_nodes(Olympics_2018_wiki, &amp;quot;h2&amp;quot;) %&amp;gt;% html_text()
+sports %&amp;gt;% head(3)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Alpine skiing[edit]&amp;quot; &amp;quot;Biathlon[edit]&amp;quot;      &amp;quot;Bobsleigh[edit]&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;html_text&lt;/code&gt; is used to convert the &lt;code&gt;xml&lt;/code&gt; nodes to regular R characters. I get 18 strings, first 15 elements contain the sport’s names with “edit”, next step is to remove “edit” parts.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sports &amp;lt;- 
+  sports %&amp;gt;% 
+  `[`(1:15) %&amp;gt;% 
+  str_split(&amp;quot;\\[&amp;quot;) %&amp;gt;% 
+  map_chr(1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the above [ is used ad prefix function for subsetting, rather than its usual usage object[index]. &lt;code&gt;purrr::map_chr&lt;/code&gt; will select the first element of each vector and store the result in a single character vector. This part get the olympic event name list.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;medals &amp;lt;- html_nodes(Olympics_2018_wiki, &amp;quot;table&amp;quot;) %&amp;gt;%
+  html_table() %&amp;gt;% 
+  `[`(3:26)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For some reasons I checked manually that the 3rd up until the 26th table contain the results. Now, if you visit the wiki page you will notice that some sports have a single results table (such as Curling), while others have several (for women’s, for men’s, and some even for mixed events). I counted on the website the number of tables for each sport.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tables_by_sport &amp;lt;- c(3, 3, 1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2)&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -410,15 +447,6 @@ git submodule update --init --recursive
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>/publication/2018-03-13-gibbon-proximity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social grooming for gibbon</title>
-      <link>/publication/2018-03-12-social-grooming-for-gibbon/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-03-12-social-grooming-for-gibbon/</guid>
       <description></description>
     </item>
     
