@@ -6,7 +6,7 @@ time_start = 2018-03-26T14:30:00
 time_end = 2018-03-26T15:30:00
 abstract = "All of apes and monkeys are primates, they are beatiful and interesting"
 abstract_short = "The apes and monkeys in Yunnan"
-event = "Popular Science Education in Junior School"
+event = "First talk of our team Charming Yunnan Youth Publicity Team of Popular Sciences (CYYTPS)"
 event_url = ""
 location = "Kunming, Yunnan"
 
