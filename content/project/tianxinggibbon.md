@@ -3,7 +3,7 @@
 date = "2018-03-14"
 
 # Project title.
-title = "Hoolock gibbon conservation in China"
+title = "Hoolock gibbon conservation in Yunnan, China"
 
 # Project summary to display on homepage.
 summary = "Hoolock gibbon project"
@@ -13,7 +13,7 @@ image_preview = "gcalogo.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["hoolock"]
+tags = ["hoolock", "conservation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

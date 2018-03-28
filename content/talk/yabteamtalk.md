@@ -7,8 +7,8 @@ time_end = 2018-03-26T15:30:00
 abstract = "All of apes and monkeys are primates, they are beatiful and interesting"
 abstract_short = "The apes and monkeys in Yunnan"
 event = "First talk of our team Charming Yunnan Youth Publicity Team of Popular Sciences (CYYTPS)"
-event_url = ""
-location = "Kunming, Yunnan"
+event_url = "http://www.swfc.edu.cn/Subject/XLXW/Article/2f883b4e-e65b-4088-81d0-f279708c4033.htm"
+location = "Kunming, Yunnan, China"
 
 # Is this a selected talk? (true/false)
 selected = false
@@ -16,7 +16,7 @@ selected = false
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = [""]
+projects = ["cyytps"]
 
 # Links (optional).
 url_pdf = ""
