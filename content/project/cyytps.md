@@ -28,4 +28,8 @@ caption = "Opening ceremony"
 
 +++
 
+![I am talking](/img/teamer.jpg)
+
 Our publicity of popular science work got started in 2014. All of us are younger and lack of experience. The beginning is not easy, we were nervous during the lectures. Even our work is public welfare, not every one accepted us. We insist for several years, keep learning from outside, and adopt variety of forms to conduct publicity. We have maintained our enthusiasm for this work. It's easiest to start writing about our research, and it is happy to tell people in simple words.
+
+![I am talking](/img/students.jpg)

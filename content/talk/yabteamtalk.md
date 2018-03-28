@@ -43,5 +43,5 @@ This is opening ceremony with the first speech. I gave the speech on the topic "
 <img src="/img/talking1.jpg" width="1000px" height="200px" />
 
 
-![Example image](/img/talking2.jpg)
+![I am talking](/img/talking2.jpg)
 
