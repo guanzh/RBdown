@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 28 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My research work</title>
+      <link>/project/researchwork/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/researchwork/</guid>
+      <description>My research work focus on gibbon behavioral ecology and conservation.</description>
+    </item>
     
     <item>
       <title>Charming Yunnan Youth Publicity Team of Popular Sciences (CYYTPS)</title>
@@ -37,15 +46,6 @@
       
       <guid>/project/example-external-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Keep going on the road</title>
-      <link>/project/keepgoing-test/</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/keepgoing-test/</guid>
-      <description>Creat this post for testing!!!</description>
     </item>
     
   </channel>

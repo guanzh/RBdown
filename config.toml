@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "gibbon.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "gzhenhua009@gmail.com"
+  email = "guanzhenhua@swfu.edu.cn"
   address = "Geebbon is onine"
   phone = "888 888 88 88"
   skype = "not yet"
@@ -91,10 +91,10 @@ defaultContentLanguageInSubdir = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 3
   map_api_key = ""
-  latitude = ""
-  longitude = ""
+  latitude = "25.0671974"
+  longitude = "102.7606518"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )

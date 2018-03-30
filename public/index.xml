@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My research work</title>
+      <link>/project/researchwork/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/researchwork/</guid>
+      <description>&lt;p&gt;My research work focus on gibbon behavioral ecology and conservation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Charming Yunnan Youth Publicity Team of Popular Sciences (CYYTPS)</title>
       <link>/project/cyytps/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
@@ -214,16 +224,6 @@ grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &amp;quot;last&amp;quot;))
       
       <guid>/project/example-external-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Keep going on the road</title>
-      <link>/project/keepgoing-test/</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/keepgoing-test/</guid>
-      <description>&lt;p&gt;Creat this post for testing!!!&lt;/p&gt;
-</description>
     </item>
     
     <item>

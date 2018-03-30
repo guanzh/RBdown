@@ -46,6 +46,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+  
   
   
   
@@ -2069,6 +2071,26 @@ url('/img/headers/twoMales.jpg');
       
       
       
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item research">
+        <div class="card">
+          
+          <a href="/project/researchwork/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/headers/infant.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/project/researchwork/" >My research work</a></h4>
+            <div class="card-desription">
+              <p>My major work is research</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item popular-sciences conservation">
         <div class="card">
           
@@ -2124,26 +2146,6 @@ url('/img/headers/twoMales.jpg');
             <h4><a href="http://www.cloudmountain.cn/" target="_blank">Conservation Project</a></h4>
             <div class="card-desription">
               <p>This is a link to Cloud Mountain Conservation</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item testHugo">
-        <div class="card">
-          
-          <a href="/project/keepgoing-test/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/headers/keepgoing.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/project/keepgoing-test/" >Keep going on the road</a></h4>
-            <div class="card-desription">
-              <p>Test for the new website</p>
             </div>
           </div>
         </div>
@@ -2308,7 +2310,7 @@ url('/img/headers/twoMales.jpg');
           
           
           
-          <a href="/tags/testhugo" style="font-size:0.8rem">testHugo</a>
+          <a href="/tags/research" style="font-size:0.8rem">research</a>
         
           
           
@@ -2350,7 +2352,7 @@ url('/img/headers/twoMales.jpg');
       
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:gzhenhua009@gmail.com">gzhenhua009@gmail.com</a></span>
+        <span id="person-email" itemprop="email"><a href="mailto:guanzhenhua@swfu.edu.cn">guanzhenhua@swfu.edu.cn</a></span>
       </li>
       
 
@@ -2385,6 +2387,16 @@ url('/img/headers/twoMales.jpg');
 
     </ul>
 
+    
+    <div class="hidden">
+      <input id="map-provider" value="3">
+      <input id="map-lat" value="25.0671974">
+      <input id="map-lng" value="102.7606518">
+      <input id="map-dir" value="Geebbon is onine">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
     
 
   </div>
@@ -2457,6 +2469,8 @@ url('/img/headers/twoMales.jpg');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
     
     <script src="/js/hugo-academic.js"></script>

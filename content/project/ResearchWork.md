@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = "2018-03-12"
+date = "2018-03-30"
 
 # Project title.
-title = "Keep going on the road"
+title = "My research work"
 
 # Project summary to display on homepage.
-summary = "Test for the new website"
+summary = "My major work is research"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "headers/keepgoing.jpg"
+image_preview = "headers/infant.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["testHugo"]
+tags = ["research"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -23,9 +23,9 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/keepgoing.jpg"
+image = ""
 caption = "My caption :smile:"
 
 +++
 
-Creat this post for testing!!!
+My research work focus on gibbon behavioral ecology and conservation.
