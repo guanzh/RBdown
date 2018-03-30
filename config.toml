@@ -55,14 +55,14 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Yunnan Academy of Biodiversity & Cloud Mountain Conservation", url = "" } ]
+  organizations = [ { name = "Yunnan Academy of Biodiversity",url="http://www.yabchina.org/"}, {name = "Cloud Mountain Conservation", url = "http://www.cloudmountain.cn" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "gibbon.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "gzhenhua009@gmail.com"
   address = "Geebbon is onine"
   phone = "888 888 88 88"
-  skype = "net yet"
+  skype = "not yet"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
