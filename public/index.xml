@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Good data visualization</title>
+      <link>/post/good-data-visualization/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/good-data-visualization/</guid>
+      <description>&lt;p&gt;Whether data visualization is good depend on the aims of plotting. Usually one people plot for two reasons, or for two purposes. One is exploratory and the other is explanation. For exploratory, one good plot help to creat connection among different subjects, help to broad mind on the research work. For explanation, good plot reveal and explain our results. In most cases, we plot for both reasons.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My research work</title>
       <link>/project/researchwork/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
@@ -446,15 +456,6 @@ git submodule update --init --recursive
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>An Assessment of Anthropogenic Threats to Hoolock Gibbon in Yingjiang County in West Yunnan, China</title>
-      <link>/publication/2018-03-14-hoolock-gibbon-survey/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-03-14-hoolock-gibbon-survey/</guid>
-      <description></description>
     </item>
     
   </channel>

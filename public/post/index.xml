@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Good data visualization</title>
+      <link>/post/good-data-visualization/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/good-data-visualization/</guid>
+      <description>Whether data visualization is good depend on the aims of plotting. Usually one people plot for two reasons, or for two purposes. One is exploratory and the other is explanation. For exploratory, one good plot help to creat connection among different subjects, help to broad mind on the research work. For explanation, good plot reveal and explain our results. In most cases, we plot for both reasons.</description>
+    </item>
+    
+    <item>
       <title>scraping data from wiki to analyze olympic medal</title>
       <link>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
