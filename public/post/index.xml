@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>assignment work</title>
+      <link>/post/assignment-work/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/assignment-work/</guid>
+      <description>I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.
+Ok! I do it in step way. I use rand(), rank() and vlookup().
+I give the manuscript random number and randomly sample from them without repeat.</description>
+    </item>
+    
+    <item>
       <title>Good data visualization</title>
       <link>/post/good-data-visualization/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>

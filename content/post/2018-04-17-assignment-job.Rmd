@@ -1,0 +1,40 @@
+---
+title: assignment work
+author: geebbon
+date: '2018-04-17'
+slug: assignment-work
+categories:
+  - Student
+tags:
+  - Step work
+summary:
+  "Use Excel to solve an assignment work"
+---
+
+I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.
+
+Ok! I do it in step way. I use `rand()`, `rank()` and `vlookup()`.
+
+1. I give the manuscript random number and randomly sample from them without repeat.
+2. I give the reviewers random number and randomly sample from them without repeat.
+
+The result is not good, because in this way, I failed to guarantee the principles. Then I have to change the plan. 
+
+1. I create the group index according to the contents of the manuscript.  
+2. I create the major index according to the major of the reviewers.
+3. I give the manuscript random number and randomly sample from them without repeat. I use `rand()`, `rank()` and `vlookup()`.
+4. I assigned the manuscripts to reviewers randomly, meanwhile keep the same index. For solving this, I use `index(.., match(..,..,0),1)`, definitely useful funtions.
+
+The only problem is I failed to guarantee the principle 1. But I can not figure out how to solve this. 
+
+However, this is not difficult, and not much work can solve this problem. Thanks for two students' help!!!
+
+
+
+
+
+
+
+
+
+

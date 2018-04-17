@@ -11,6 +11,31 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>assignment work</title>
+      <link>/post/assignment-work/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/assignment-work/</guid>
+      <description>&lt;p&gt;I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.&lt;/p&gt;
+&lt;p&gt;Ok! I do it in step way. I use &lt;code&gt;rand()&lt;/code&gt;, &lt;code&gt;rank()&lt;/code&gt; and &lt;code&gt;vlookup()&lt;/code&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;I give the manuscript random number and randomly sample from them without repeat.&lt;/li&gt;
+&lt;li&gt;I give the reviewers random number and randomly sample from them without repeat.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The result is not good, because in this way, I failed to guarantee the principles. Then I have to change the plan.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;I create the group index according to the contents of the manuscript.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;I create the major index according to the major of the reviewers.&lt;/li&gt;
+&lt;li&gt;I give the manuscript random number and randomly sample from them without repeat. I use &lt;code&gt;rand()&lt;/code&gt;, &lt;code&gt;rank()&lt;/code&gt; and &lt;code&gt;vlookup()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;I assigned the manuscripts to reviewers randomly, meanwhile keep the same index. For solving this, I use &lt;code&gt;index(.., match(..,..,0),1)&lt;/code&gt;, definitely useful funtions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The only problem is I failed to guarantee the principle 1. But I can not figure out how to solve this.&lt;/p&gt;
+&lt;p&gt;However, this is not difficult, and not much work can solve this problem. Thanks for two students’ help!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Good data visualization</title>
       <link>/post/good-data-visualization/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
@@ -272,15 +297,6 @@ grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &amp;quot;last&amp;quot;))
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/2018-03-13-china-gibbon-monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How many remnant gibbon populations are left on Hainan?</title>
-      <link>/publication/2018-03-13-hainan-gibbon-survey/</link>
-      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-03-13-hainan-gibbon-survey/</guid>
       <description></description>
     </item>
     
