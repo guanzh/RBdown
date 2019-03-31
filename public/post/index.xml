@@ -13,6 +13,32 @@
     
     
     <item>
+      <title>Short explanation of graph by PCA</title>
+      <link>/post/short-explanation-of-graph-by-pca/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/short-explanation-of-graph-by-pca/</guid>
+      <description>一般来说，PCA分析2个图够了，以iris数据为例，在经过PCA分析后，我们可以得到第一章碎石图，表示PC1，2，3，4的特征向量值，可以据此选择保留的主成分（通常选择特征向量值超过2的变量），此图显示出1个主成分可以保留。
+此外，可以有另外2个基于特征向量值选择主成分的标准，即 Kaiser-Guttman 标准和 Broken Stick 标准，这些标准可以反应主成分对于解释原始数据的贡献程度
+依据Kaiser-Guttman 标准，仅应该保留主成分1，上图中仅PC1超过了平均值，下图中仅PC1超过了红色柱形图。
+在选择了PC后，需要考虑变量对于PC的贡献，下图中，Petal Length，Width， Sepal Length对于PC1的贡献大，即方向偏向x轴方向；而Sepal width对PC2的贡献大，方向偏向y轴。长度越长，相对影响越大。
+附简易代码
+ head(iris) ir.pca &amp;lt;- prcomp(iris[,1:4], center=TRUE, scale. = TRUE) summary(ir.pca) loadings &amp;lt;- ir.pca$rotation scores &amp;lt;- ir.pca$x plot(ir.pca, type = &amp;quot;l&amp;quot;,main=&amp;quot;&amp;quot;) ev &amp;lt;- ir.pca$sdev^2 source (&#39;http://www.davidzeleny.net/anadatr/doku.php/en:numecolr:evplot?do=export_code&amp;amp;codeblock=1&#39;) evplot(ev) library(&amp;quot;ggbiplot&amp;quot;) ggbiplot(ir.pca, choices=c(1,2), obs.scale = 1, var.scale = 1) ggbiplot(ir.pca,choices=c(1,2), groups=iris[,5], obs.scale = 1, var.scale = 1, ellipse = TRUE)  </description>
+    </item>
+    
+    <item>
+      <title>奥卡姆剃刀 -- Occam&#39;s Razor, Ockham&#39;s Razor</title>
+      <link>/post/occam-s-razor-ockham-s-razor/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/occam-s-razor-ockham-s-razor/</guid>
+      <description>奥卡姆剃刀（Occam&amp;rsquo;s Razor, Ockham&amp;rsquo;s Razor），又称“奥坎的剃刀”，拉丁文为lex parsimoniae，意思是简约之法则，是由14世纪逻辑学家、圣方济各会修士奥卡姆的威廉（William of Occam，约1287年至1347年，奥卡姆（Ockham）位于英格兰的萨里郡）提出的一个解决问题的法则，他在《箴言书注》2卷15题说“切勿浪费较多东西，去做‘用较少的东西，同样可以做好的事情’。”换一种说法，如果关于同一个问题有许多种理论，每一种都能作出同样准确的预言，那么应该挑选其中使用假定最少的。尽管越复杂的方法通常能做出越好的预言，但是在不考虑预言能力（即结果大致相同）的情况下，假设越少越好。
+理察·斯温伯恩在逻辑学的背景下讨论简单性： ……对于一个现象的最简单解释，比其他解释更有可能为真，它作出的预言比其他的假设更可能实现，这是认识论的先验首要法则：简单是真理的明证。 ——Swinburne 1997
+ 奥卡姆剃刀多用于简约统计过程中的复杂程度。奥卡姆剃刀常用于两种假说的取舍上：如果对于同一现象有两种不同的假说，我们应该采取比较简单的那一种。学术研究中普遍希望使用奥卡姆剃刀来降低统计推断的复杂性，以支持某些假设观点。但在使用过程中，需要注意的是，奥卡姆剃刀适用于具有同等解释力的模型（也就是说，它只是告诉我们在同样好的模型中选择较简单的那一个）。奥卡姆剃刀的一个更通用的形式，可以从贝叶斯模型比较中产生。它基于贝叶斯因子，可以适用于那些并不和观察结果同样吻合的模型比较。这些模型有时候可以在解释力和复杂性中找到最好的平衡。总的来说，贝叶斯因子的准确值很难得到，但是有很多种方法给出近似值，例如赤池信息量准则、贝叶斯信息准则、变分贝叶斯方法、错误发现率以及拉普拉斯方法。许多人工智能研究者将这些方法用于奥卡姆学习中。
+参考资料:https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80</description>
+    </item>
+    
+    <item>
       <title>assignment work</title>
       <link>/post/assignment-work/</link>
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>

@@ -231,7 +231,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/GuanZH"
+    link = "//github.com/guanzh"
 
 
 # Navigation Links
