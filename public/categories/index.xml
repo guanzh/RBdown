@@ -1,85 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on We Love Apes</title>
+    <title>Categories on LEARNING FROM APES</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on We Love Apes</description>
+    <description>Recent content in Categories on LEARNING FROM APES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018</copyright>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>/categories/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Hawking</title>
+      <link>/categories/hawking/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/</guid>
+      <guid>/categories/hawking/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Beyasian</title>
-      <link>/categories/beyasian/</link>
-      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Research</title>
+      <link>/categories/research/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/beyasian/</guid>
+      <guid>/categories/research/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>/categories/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Student</title>
+      <link>/categories/student/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/go/</guid>
+      <guid>/categories/student/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>plot</title>
+      <link>/categories/plot/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/hugo/</guid>
+      <guid>/categories/plot/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo theme</title>
-      <link>/categories/hugo-theme/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>web</title>
+      <link>/categories/web/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/hugo-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>/categories/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
+      <guid>/categories/web/</guid>
       <description></description>
     </item>
     

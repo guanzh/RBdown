@@ -1,94 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on We Love Apes</title>
+    <title>Tags on LEARNING FROM APES</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on We Love Apes</description>
+    <description>Recent content in Tags on LEARNING FROM APES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogdown/</guid>
-      <description></description>
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Hawking</title>
+      <link>/tags/hawking/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Merge</title>
-      <link>/tags/merge/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/merge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/plot/</guid>
+      <guid>/tags/hawking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Step work</title>
+      <link>/tags/step-work/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/step-work/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>cloudmountain</title>
+      <link>/tags/cloudmountain/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/tags/cloudmountain/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Table</title>
-      <link>/tags/table/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>conservation</title>
+      <link>/tags/conservation/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/table/</guid>
+      <guid>/tags/conservation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>data visualization</title>
+      <link>/tags/data-visualization/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tutorial/</guid>
+      <guid>/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot</title>
+      <link>/tags/ggplot/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hoolock</title>
+      <link>/tags/hoolock/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hoolock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nutrient</title>
+      <link>/tags/nutrient/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nutrient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>popular-sciences</title>
+      <link>/tags/popular-sciences/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/popular-sciences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>primate</title>
+      <link>/tags/primate/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/primate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>/tags/research/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>/tags/web/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web/</guid>
       <description></description>
     </item>
     

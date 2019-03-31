@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on We Love Apes</title>
+    <title>R on LEARNING FROM APES</title>
     <link>/tags/r/</link>
-    <description>Recent content in R on We Love Apes</description>
+    <description>Recent content in R on LEARNING FROM APES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Merge two table</title>
-      <link>/post/merge-two-table/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Good data visualization</title>
+      <link>/post/good-data-visualization/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/merge-two-table/</guid>
-      <description>The question is how to merge two tables, it is easy to use merge. However, it is not easy to merge because the two table have different sample sizes and we want to keep all of them.
- Table 1: Some names not in table 2  name plot1    name_z 1  name_f 2  name_a 3  name_d 4  name_n 5  name_p 6  name_o 7  name_s 8  name_l 9  name_w 10  name_t 11  name_k 12  name_m 13  name_g 14  name_q 15     Table 1: Some names not in table 1  name plot2    name_h 1  name_f 2  name_r 3  name_b 4  name_e 5  name_w 6  name_n 7  name_x 8  name_z 9  name_a 10    Now we have problems, some names exist in table 1 but not in table 2, and vice verse.</description>
+      <guid>/post/good-data-visualization/</guid>
+      <description>Whether data visualization is good depend on the aims of plotting. Usually one people plot for two reasons, or for two purposes. One is exploratory and the other is explanation. For exploratory, one good plot help to creat connection among different subjects, help to broad mind on the research work. For explanation, good plot reveal and explain our results. In most cases, we plot for both reasons.</description>
+    </item>
+    
+    <item>
+      <title>scraping data from wiki to analyze olympic medal</title>
+      <link>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</guid>
+      <description>Today I learn Edwin Thoen from R-blogger. The topic is how to scrape the data from wikepedia and tidy the data in a format in which they can be analyzed. Thank Edwin for sharing the code.
+ scrape data from website  I use rvest and tidy package.
+library(&amp;quot;rvest&amp;quot;) library(tidyverse) library(stringr) Olympics_2018_wiki &amp;lt;- read_html(&amp;quot;https://en.wikipedia.org/wiki/List_of_2018_Winter_Olympics_medal_winners&amp;quot;) sports &amp;lt;- html_nodes(Olympics_2018_wiki, &amp;quot;h2&amp;quot;) %&amp;gt;% html_text() sports %&amp;gt;% head(3) ## [1] &amp;quot;Alpine skiing[edit]&amp;quot; &amp;quot;Biathlon[edit]&amp;quot; &amp;quot;Bobsleigh[edit]&amp;quot; html_text is used to convert the xml nodes to regular R characters.</description>
+    </item>
+    
+    <item>
+      <title>How to merge to graph using same y axis</title>
+      <link>/post/how-to-merge-to-graph-using-same-y-axis/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-merge-to-graph-using-same-y-axis/</guid>
+      <description>In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.
+I use code from stackexchange.com
+library(&amp;quot;PtProcess&amp;quot;) lambda &amp;lt;- 1.5 a &amp;lt;- 1 pareto &amp;lt;- rpareto(1000,lambda=lambda,a=a) x_pareto &amp;lt;- seq(from=min(pareto),to=max(pareto),length=1000) y_pareto &amp;lt;- 1-ppareto(x_pareto,lambda,a) df1 &amp;lt;- data.</description>
     </item>
     
   </channel>

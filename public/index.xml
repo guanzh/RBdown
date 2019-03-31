@@ -16,7 +16,10 @@
       <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/assignment-work/</guid>
-      <description>&lt;p&gt;I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.&lt;/p&gt;
 &lt;p&gt;Ok! I do it in step way. I use &lt;code&gt;rand()&lt;/code&gt;, &lt;code&gt;rank()&lt;/code&gt; and &lt;code&gt;vlookup()&lt;/code&gt;.&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;I give the manuscript random number and randomly sample from them without repeat.&lt;/li&gt;
@@ -42,7 +45,10 @@
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/good-data-visualization/</guid>
-      <description>&lt;p&gt;Whether data visualization is good depend on the aims of plotting. Usually one people plot for two reasons, or for two purposes. One is exploratory and the other is explanation. For exploratory, one good plot help to creat connection among different subjects, help to broad mind on the research work. For explanation, good plot reveal and explain our results. In most cases, we plot for both reasons.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;Whether data visualization is good depend on the aims of plotting. Usually one people plot for two reasons, or for two purposes. One is exploratory and the other is explanation. For exploratory, one good plot help to creat connection among different subjects, help to broad mind on the research work. For explanation, good plot reveal and explain our results. In most cases, we plot for both reasons.&lt;/p&gt;
 </description>
     </item>
     
@@ -104,7 +110,10 @@
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/scraping-data-from-wiki-to-analyze-olympic-medal/</guid>
-      <description>&lt;p&gt;Today I learn Edwin Thoen from R-blogger. The topic is how to scrape the data from wikepedia and tidy the data in a format in which they can be analyzed. Thank Edwin for sharing the code.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;Today I learn Edwin Thoen from R-blogger. The topic is how to scrape the data from wikepedia and tidy the data in a format in which they can be analyzed. Thank Edwin for sharing the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;scrape data from website&lt;/li&gt;
 &lt;/ul&gt;
@@ -137,7 +146,10 @@ sports %&amp;gt;% head(3)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/what-i-want-to-tell-about-my-research/</guid>
-      <description>&lt;p&gt;About primates, what do I want to tell the others?&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;About primates, what do I want to tell the others?&lt;/p&gt;
 &lt;p&gt;It is about biodiversity, evolution, and human beings.&lt;/p&gt;
 &lt;p&gt;To me, the gibbon is only one of the five hundreds of primate species, and the primates are only five hundreds of the ten millions of animal species.&lt;/p&gt;
 &lt;p&gt;In Yunnan, most primates dwelled on forests. So all the stories can not happen without refering to forests. In case of we seeing a monkey or gibbon move in tree canopy, we want to know where they are going and what they are going to do.&lt;/p&gt;
@@ -157,7 +169,10 @@ sports %&amp;gt;% head(3)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-merge-to-graph-using-same-y-axis/</guid>
-      <description>&lt;p&gt;In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;In case of that I want to plot several graphs, and the datasets are same and variables are same. How to make it in a compact way, such as I want them share the same y-axis and distinct x-axis, or verse visa. Or I treat X variables in different ways, log and 1/x.&lt;/p&gt;
 &lt;p&gt;I use code from stackexchange.com&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;quot;PtProcess&amp;quot;)
 lambda &amp;lt;- 1.5
@@ -225,7 +240,10 @@ grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &amp;quot;last&amp;quot;))
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/rememberinghawking/</guid>
-      <description>&lt;blockquote&gt;
+      <description>
+
+
+&lt;blockquote&gt;
 &lt;p&gt;Man’s greatness lies in his power of thought. —— Blaise Pascal&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
@@ -240,7 +258,8 @@ grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &amp;quot;last&amp;quot;))
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/step-to-student-opening-report/</guid>
-      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;/rmarkdown-libs/viz/viz.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;/rmarkdown-libs/DiagrammeR-styles/styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script src=&#34;/rmarkdown-libs/grViz-binding/grViz.js&#34;&gt;&lt;/script&gt;
@@ -284,7 +303,10 @@ grid.draw(cbind(ggplotGrob(g1), ggplotGrob(g2),size = &amp;quot;last&amp;quot;))
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/nutrients-for-nonhuman-primate/</guid>
-      <description>&lt;p&gt;Protein is important for primates, because it is the vital source for amino acids.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;Protein is important for primates, because it is the vital source for amino acids.&lt;/p&gt;
 &lt;p&gt;When we talk about strategy, it is usually an action under a trade-off situation. So, we think the primate may intake AP and TNC with balance proportion.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-03-12-nutrients-for-nonhuman-primate_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;And this strategy may be used to balance more nutrients.&lt;/p&gt;

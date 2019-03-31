@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Step work on LEARNING FROM APES</title>
+    <link>/tags/step-work/</link>
+    <description>Recent content in Step work on LEARNING FROM APES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/step-work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>assignment work</title>
+      <link>/post/assignment-work/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/assignment-work/</guid>
+      <description>I get a work to do. Leader ask me to assign 22 manuscripts to 11 reviewers, guaranting two principles. First, the manuscript can not be assigned to the reviewers who participate in the work. Secondly, the manuscript have to be assigned to reviewers who are familiar with the content, or major in the field.
+Ok! I do it in step way. I use rand(), rank() and vlookup().
+I give the manuscript random number and randomly sample from them without repeat.</description>
+    </item>
+    
+    <item>
+      <title>What I want to tell about my research</title>
+      <link>/post/what-i-want-to-tell-about-my-research/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/what-i-want-to-tell-about-my-research/</guid>
+      <description>About primates, what do I want to tell the others?
+It is about biodiversity, evolution, and human beings.
+To me, the gibbon is only one of the five hundreds of primate species, and the primates are only five hundreds of the ten millions of animal species.
+In Yunnan, most primates dwelled on forests. So all the stories can not happen without refering to forests. In case of we seeing a monkey or gibbon move in tree canopy, we want to know where they are going and what they are going to do.</description>
+    </item>
+    
+    <item>
+      <title>Step to Student Opening Report</title>
+      <link>/post/step-to-student-opening-report/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/step-to-student-opening-report/</guid>
+      <description>Anyway, I do some student work, including secretary working for opening report defencing. So I use grViz to make a step graph for the procedure.
+ {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ndigraph boxes_and_circles {\n\n # a \&#34;graph\&#34; statement\n graph [overlap = true, fontsize = 10]\n\n # several \&#34;node\&#34; statements\n node [shape = box,\n fontname = Helvetica, color=OrangeRed]\n a [label = \&#34;Defence Secretary\&#34;];\n b [label = \&#34;Defence Chairman\&#34;];\n c [label = \&#34;Teaching Secretary\&#34;</description>
+    </item>
+    
+  </channel>
+</rss>
