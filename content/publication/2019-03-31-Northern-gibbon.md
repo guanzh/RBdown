@@ -3,9 +3,8 @@ title = "Ecology and social system of northern gibbons living in cold seasonal f
 date = "2018-02-01"
 
 
-Author information
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Guan Zhenhua","Ma Changyong","Fei Hanlan","Huang Bei","Ning Wenhe","Ni Qingyong","Jiang Xuelong","Fan Pengfei"]
+authors = ["Guan Zhenhua", "Ma Changyong", "Fei Hanlan", "Huang Bei", "Ning Wenhe", "Ni Qingyong", "Jiang Xuelong", "Fan Pengfei"]
 
 # Publication type.
 # Legend:

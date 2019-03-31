@@ -3,7 +3,7 @@ title = "Dispersal and female philopatry in a long‐term, stable, polygynous gi
 date = "2018-12-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Hu Naiqing","Guan Zhenhua","Huang Bei","Ning Wenhe","He Kai,"Fan Pengfei","Jiang Xuelong"]
+authors = ["Hu Naiqing", "Guan Zhenhua", "Huang Bei", "Ning Wenhe", "He Kai", "Fan Pengfei", "Jiang Xuelong"]
 
 
 # Publication type.
