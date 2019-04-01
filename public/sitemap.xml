@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/2019-04-01-score-analysis/</loc>
+      <lastmod>2019-04-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/short-explanation-of-graph-by-pca/</loc>
       <lastmod>2019-03-31T00:00:00+00:00</lastmod>
     </url>
@@ -488,6 +497,16 @@
     
       <loc>/tags/research/</loc>
       <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/students/</loc>
+      <lastmod>2019-04-01T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
